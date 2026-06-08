@@ -12,55 +12,56 @@
   --green:#1a7a3c;--green-light:#e8f5ee;--green-mid:#2ea055;
   --gold:#d4a017;--gold-light:#fdf3d7;
   --red:#c0392b;--red-light:#fdecea;
-  --blue:#1a5fa0;--blue-light:#e8f0fb;
+  --fifa-dark:#020F2A;--fifa-blue:#1b9ed3;--fifa-blue-light:#e6f5fb;
   --text:#1a1a1a;--text-muted:#5a5a5a;
   --border:#e0e0e0;--surface:#f8f8f6;--white:#ffffff;
   --radius:10px;--shadow:0 2px 12px rgba(0,0,0,0.08);
 }
 body{font-family:'Barlow',sans-serif;font-size:15px;color:var(--text);background:var(--surface);min-height:100vh;}
-header{background:var(--green);color:white;padding:1.25rem 2rem;display:flex;align-items:center;gap:1rem;}
+header{background:var(--fifa-dark);color:white;padding:1.25rem 2rem;display:flex;align-items:center;gap:1rem;}
 header h1{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:700;letter-spacing:.02em;line-height:1.1;}
-header .subtitle{font-size:13px;opacity:.8;margin-top:2px;}
-header .badge{background:var(--gold);color:#4a3000;font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;}
-.progress-wrap{background:rgba(255,255,255,.15);height:4px;}
-.progress-inner{height:100%;background:var(--gold);transition:width .4s ease;}
+header .subtitle{font-size:13px;opacity:.7;margin-top:2px;}
+header .badge{background:var(--fifa-blue);color:white;font-size:11px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;}
+.progress-wrap{background:rgba(255,255,255,.1);height:4px;}
+.progress-inner{height:100%;background:var(--fifa-blue);transition:width .4s ease;}
 main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 .step{display:none;}.step.active{display:block;}
 .step-header{margin-bottom:1.5rem;}
 .step-header h2{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:700;color:var(--text);margin-bottom:.3rem;}
 .step-header p{font-size:14px;color:var(--text-muted);line-height:1.6;}
 .card{background:var(--white);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.25rem;margin-bottom:1rem;box-shadow:var(--shadow);}
-.info-box{background:var(--green-light);border:1.5px solid #a8d8bb;border-radius:var(--radius);padding:12px 16px;font-size:13px;color:#1a5c30;margin-bottom:1.25rem;line-height:1.6;}
-.info-box strong{color:#0f3d20;}
+.info-box{background:var(--fifa-blue-light);border:1.5px solid #9dd5f0;border-radius:var(--radius);padding:12px 16px;font-size:13px;color:#0a4f70;margin-bottom:1.25rem;line-height:1.6;}
+.info-box strong{color:#063550;}
 .warn-box{background:#fff8e1;border:1.5px solid #ffe082;border-radius:var(--radius);padding:12px 16px;font-size:13px;color:#5c3d00;margin-bottom:1.25rem;line-height:1.6;}
 .callout{border-left:4px solid var(--green);padding:10px 14px;background:var(--green-light);border-radius:0 8px 8px 0;font-size:13px;color:#1a5c30;margin-bottom:.75rem;line-height:1.6;}
 .callout-warn{border-left:4px solid var(--gold);padding:10px 14px;background:var(--gold-light);border-radius:0 8px 8px 0;font-size:13px;color:#5c3d00;margin-bottom:.75rem;line-height:1.6;}
 .callout-red{border-left:4px solid var(--red);padding:10px 14px;background:var(--red-light);border-radius:0 8px 8px 0;font-size:13px;color:#7a1a10;margin-bottom:.75rem;line-height:1.6;}
-/* EXAMPLE TABLE */
 .example-table{width:100%;border-collapse:collapse;font-size:13px;}
 .example-table th{text-align:left;padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;}
 .example-table td{padding:9px 10px;border-bottom:1px solid var(--border);}
 .example-table tr.highlight td{background:#e8f5ee;font-weight:600;}
 /* NATIONS */
 .search-box{width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius);font-size:15px;font-family:'Barlow',sans-serif;background:var(--white);color:var(--text);margin-bottom:1.25rem;transition:border-color .15s;}
-.search-box:focus{outline:none;border-color:var(--green);}
-.nation-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;max-height:460px;overflow-y:auto;padding-right:4px;}
-.nation-btn{background:var(--white);border:1.5px solid var(--border);border-radius:var(--radius);padding:12px;cursor:pointer;text-align:left;transition:all .15s;}
-.nation-btn:hover{border-color:var(--green);background:var(--green-light);transform:translateY(-1px);}
-.nation-btn .flag{font-size:26px;display:block;margin-bottom:6px;}
-.nation-btn .name{font-size:13px;font-weight:600;color:var(--text);}
-.nation-btn .conf{font-size:11px;color:var(--text-muted);margin-top:2px;}
+.search-box:focus{outline:none;border-color:var(--fifa-blue);}
+.conf-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);margin:1rem 0 .5rem;}
+.nation-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:8px;margin-bottom:.5rem;}
+.nation-btn{border:2px solid transparent;border-radius:var(--radius);padding:0;cursor:pointer;text-align:left;transition:all .15s;overflow:hidden;}
+.nation-btn:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,0.15);}
+.nation-btn-inner{padding:10px 12px;}
+.nation-btn .flag{font-size:24px;display:block;margin-bottom:5px;}
+.nation-btn .name{font-size:13px;font-weight:600;line-height:1.2;}
+.nation-btn .conf{font-size:10px;opacity:.75;margin-top:2px;}
 /* SQUAD PICKER */
 .tabs{display:flex;gap:4px;margin-bottom:1rem;border-bottom:2px solid var(--border);}
 .tab-btn{background:none;border:none;border-bottom:3px solid transparent;padding:8px 16px;font-size:13px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;color:var(--text-muted);margin-bottom:-2px;transition:all .15s;}
 .tab-btn:hover{color:var(--text);}
-.tab-btn.active{color:var(--green);border-bottom-color:var(--green);}
+.tab-btn.active{color:var(--fifa-blue);border-bottom-color:var(--fifa-blue);}
 .player-table{width:100%;border-collapse:collapse;font-size:13px;}
 .player-table th{text-align:left;padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;white-space:nowrap;}
 .player-table th.sortable{cursor:pointer;}
-.player-table th.sortable:hover{color:var(--green);}
+.player-table th.sortable:hover{color:var(--fifa-blue);}
 .player-table td{padding:9px 10px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:middle;}
-.player-table tbody tr:hover td{background:var(--green-light);}
+.player-table tbody tr:hover td{background:var(--fifa-blue-light);}
 .player-table tbody tr:last-child td{border-bottom:none;}
 .pos-badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.03em;}
 .pos-GK{background:#fde8a0;color:#7a5500;}
@@ -68,7 +69,7 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 .pos-MID{background:#b8e8c8;color:#0d4a22;}
 .pos-FWD{background:#f5c4b0;color:#6e2600;}
 .pick-btn{background:transparent;border:1.5px solid var(--border);border-radius:6px;padding:5px 12px;font-size:12px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;color:var(--text-muted);transition:all .15s;white-space:nowrap;}
-.pick-btn:hover:not(:disabled){border-color:var(--green);color:var(--green);background:var(--green-light);}
+.pick-btn:hover:not(:disabled){border-color:var(--fifa-blue);color:var(--fifa-blue);background:var(--fifa-blue-light);}
 .pick-btn.picked{background:var(--green-light);border-color:var(--green-mid);color:var(--green);}
 .pick-btn:disabled{opacity:.35;cursor:not-allowed;}
 .counter{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:1.25rem;}
@@ -83,53 +84,45 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 .xi-slot .slot-stats{font-size:11px;color:var(--text-muted);margin-top:3px;}
 .xi-slot .remove-btn{font-size:11px;color:var(--text-muted);cursor:pointer;background:none;border:none;padding:0;margin-top:5px;font-family:'Barlow',sans-serif;}
 .xi-slot .remove-btn:hover{color:#cc2222;}
-/* FEEDBACK BADGES */
-.fb-good{display:inline-block;background:var(--green-light);border:1.5px solid #a8d8bb;color:#1a5c30;border-radius:6px;padding:4px 10px;font-size:12px;margin-top:4px;}
-.fb-warn{display:inline-block;background:var(--gold-light);border:1.5px solid #ffe082;color:#7a5500;border-radius:6px;padding:4px 10px;font-size:12px;margin-top:4px;}
-.fb-bad{display:inline-block;background:var(--red-light);border:1.5px solid #f5b7b1;color:#7a1a10;border-radius:6px;padding:4px 10px;font-size:12px;margin-top:4px;}
-/* QUESTIONS */
+.fb-good{display:inline-block;background:var(--green-light);border:1.5px solid #a8d8bb;color:#1a5c30;border-radius:6px;padding:4px 10px;font-size:11px;margin-top:4px;}
+.fb-warn{display:inline-block;background:var(--gold-light);border:1.5px solid #ffe082;color:#7a5500;border-radius:6px;padding:4px 10px;font-size:11px;margin-top:4px;}
+.fb-bad{display:inline-block;background:var(--red-light);border:1.5px solid #f5b7b1;color:#7a1a10;border-radius:6px;padding:4px 10px;font-size:11px;margin-top:4px;}
 .q-block{background:var(--white);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.25rem;margin-bottom:1rem;}
 .q-label{font-size:14px;font-weight:600;color:var(--text);margin-bottom:6px;line-height:1.4;}
-.q-starter{font-size:13px;color:var(--green);font-style:italic;margin-bottom:8px;padding:6px 10px;background:var(--green-light);border-radius:6px;}
+.q-starter{font-size:13px;color:#0a4f70;font-style:italic;margin-bottom:8px;padding:6px 10px;background:var(--fifa-blue-light);border-radius:6px;}
 .q-starter span{font-weight:600;}
 .q-input{width:100%;border:1.5px solid var(--border);border-radius:8px;padding:10px 12px;font-size:14px;font-family:'Barlow',sans-serif;color:var(--text);resize:vertical;line-height:1.5;background:var(--surface);transition:border-color .15s;}
-.q-input:focus{outline:none;border-color:var(--green);background:var(--white);}
+.q-input:focus{outline:none;border-color:var(--fifa-blue);background:var(--white);}
 .hint-btn{background:none;border:1.5px solid var(--gold);border-radius:6px;padding:4px 12px;font-size:12px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;color:#7a5500;margin-top:8px;transition:all .15s;}
 .hint-btn:hover{background:var(--gold-light);}
 .hint-text{display:none;margin-top:8px;background:var(--gold-light);border:1.5px solid #e8cc80;border-radius:8px;padding:10px 12px;font-size:13px;color:#5c3d00;line-height:1.6;}
 .hint-text.visible{display:block;}
 .extension-badge{display:inline-block;background:var(--gold-light);color:#7a5500;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;margin-bottom:6px;letter-spacing:.04em;text-transform:uppercase;}
-/* BUTTONS */
 .btn{display:inline-flex;align-items:center;gap:6px;padding:10px 22px;border-radius:var(--radius);font-size:14px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;transition:all .15s;border:1.5px solid transparent;}
-.btn-primary{background:var(--green);color:white;border-color:var(--green);}
-.btn-primary:hover:not(:disabled){background:#155f30;}
+.btn-primary{background:var(--fifa-dark);color:white;border-color:var(--fifa-dark);}
+.btn-primary:hover:not(:disabled){background:#0a1f4a;}
 .btn-primary:disabled{opacity:.4;cursor:not-allowed;}
 .btn-outline{background:var(--white);border-color:var(--border);color:var(--text);}
-.btn-outline:hover{border-color:var(--green);color:var(--green);}
+.btn-outline:hover{border-color:var(--fifa-blue);color:var(--fifa-blue);}
 .btn-back{background:none;border:none;color:var(--text-muted);font-size:13px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;padding:0;margin-bottom:1.25rem;display:inline-flex;align-items:center;gap:4px;}
 .btn-back:hover{color:var(--text);}
-/* NAME INPUT */
 .name-input{padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--radius);font-size:16px;font-family:'Barlow',sans-serif;color:var(--text);width:280px;transition:border-color .15s;}
-.name-input:focus{outline:none;border-color:var(--green);}
-/* LEADERBOARD */
+.name-input:focus{outline:none;border-color:var(--fifa-blue);}
 .lb-table{width:100%;border-collapse:collapse;font-size:14px;}
 .lb-table th{text-align:left;padding:8px 12px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;}
 .lb-table td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:middle;}
 .lb-table tr:first-child td{background:var(--gold-light);}
 .lb-table tr:nth-child(2) td{background:#f0f0f0;}
-.lb-table tr:nth-child(3) td{background:#fdecea;}
-.challenge-btn{background:var(--green);color:white;border:none;border-radius:6px;padding:6px 14px;font-size:12px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;transition:all .15s;}
-.challenge-btn:hover{background:#155f30;}
-/* MATCH SIM */
+.lb-table tr:nth-child(3) td{background:var(--red-light);}
+.challenge-btn{background:var(--fifa-dark);color:white;border:none;border-radius:6px;padding:6px 14px;font-size:12px;font-family:'Barlow',sans-serif;font-weight:600;cursor:pointer;transition:all .15s;}
+.challenge-btn:hover{background:#0a1f4a;}
 .match-screen{background:var(--white);border:1.5px solid var(--border);border-radius:var(--radius);padding:2rem;text-align:center;margin-bottom:1rem;}
 .match-scoreline{font-family:'Barlow Condensed',sans-serif;font-size:52px;font-weight:700;color:var(--text);margin:1rem 0;letter-spacing:.05em;}
 .match-team{font-size:16px;font-weight:600;color:var(--text-muted);}
 .match-event{font-size:13px;color:var(--text-muted);padding:4px 0;border-bottom:1px solid var(--border);}
 .match-event:last-child{border-bottom:none;}
 .result-win{color:var(--green);}
-.result-loss{color:var(--red);}
 .result-draw{color:var(--gold);}
-/* SUMMARY */
 .summary-card{background:var(--white);border:1.5px solid var(--border);border-radius:var(--radius);padding:1.25rem;margin-bottom:1rem;box-shadow:var(--shadow);}
 .summary-card h3{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;margin-bottom:1rem;color:var(--text);border-bottom:2px solid var(--border);padding-bottom:.75rem;}
 .player-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--border);font-size:13px;flex-wrap:wrap;gap:4px;}
@@ -137,14 +130,9 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 .q-answer{margin-bottom:.75rem;}
 .q-answer .qlabel{font-size:12px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px;}
 .q-answer .qtext{font-size:14px;color:var(--text);line-height:1.6;background:var(--surface);border-radius:6px;padding:8px 10px;}
-/* PRACTICE MODEL XI */
-.model-xi-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px;}
-.model-xi-row:last-child{border-bottom:none;}
 .match-badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700;}
 .match-yes{background:var(--green-light);color:var(--green);}
 .match-no{background:var(--red-light);color:var(--red);}
-@keyframes goal-flash{0%{background:var(--gold-light);}50%{background:#ffe566;}100%{background:var(--gold-light);}}
-.goal-flash{animation:goal-flash .6s ease 3;}
 @media print{header .badge,.btn-back,.hint-btn,.tabs,.player-table,.counter,.xi-grid,.q-input,.hint-text,.step-header p{display:none!important;}.summary-card{box-shadow:none;border:1px solid #ccc;page-break-inside:avoid;}body{background:white;}}
 @media(max-width:600px){main{padding:1rem;}.xi-grid{grid-template-columns:repeat(2,1fr);}header{padding:1rem;}header h1{font-size:20px;}}
 </style>
@@ -152,7 +140,7 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 <body>
 <header>
   <div style="flex:1">
-    <h1>⚽ World Cup 2026 — Data Squad Picker</h1>
+    <h1>⚽ FIFA World Cup 2026 — Data Squad Picker</h1>
     <div class="subtitle">Computing Science — Using Data to Make Decisions</div>
   </div>
   <div class="badge">S1/S2 Activity</div>
@@ -164,7 +152,7 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 <div id="step0" class="step active">
   <div class="step-header">
     <h2>Step 1 — How to read the data</h2>
-    <p>Before you pick your own squad, let's see how a data analyst thinks. Here are 3 fictional goalkeepers. Only <strong>1 GK</strong> can be picked — which one would you choose?</p>
+    <p>Before you pick your own squad, let's see how a data analyst thinks. Here are 3 fictional goalkeepers — only <strong>1 GK</strong> can be picked. Which one would you choose?</p>
   </div>
   <div class="info-box">
     <strong>Your stats explained:</strong><br>
@@ -180,26 +168,26 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
         <thead><tr><th>Player</th><th>Pos</th><th>Age</th><th>Caps</th><th>Goals</th><th>Pace</th><th>Rating</th></tr></thead>
         <tbody>
           <tr><td>Sam Torres</td><td><span class="pos-badge pos-GK">GK</span></td><td>34</td><td>72</td><td>0</td><td>52</td><td>81</td></tr>
-          <tr class="highlight"><td>Alex Müller</td><td><span class="pos-badge pos-GK">GK</span></td><td>27</td><td>48</td><td>0</td><td>61</td><td>88</td></tr>
+          <tr class="highlight"><td>Alex Müller ✓</td><td><span class="pos-badge pos-GK">GK</span></td><td>27</td><td>48</td><td>0</td><td>61</td><td>88</td></tr>
           <tr><td>Jo Park</td><td><span class="pos-badge pos-GK">GK</span></td><td>19</td><td>3</td><td>0</td><td>58</td><td>71</td></tr>
         </tbody>
       </table>
     </div>
   </div>
-  <div class="callout"><strong>Best pick: Alex Müller (rating 88)</strong> — highest rating, good pace (61), age 27 is the prime for a keeper, and 48 caps shows they're trusted and experienced at international level.</div>
-  <div class="callout-warn"><strong>Sam Torres?</strong> High caps (72) = lots of experience, but age 34 is a risk — older players lose pace and reflexes. Could be a good backup though.</div>
-  <div class="callout-red"><strong>Jo Park?</strong> Only 19 and 3 caps — far too inexperienced for a World Cup, even if they have potential for the future.</div>
-  <div class="info-box"><strong>Key idea:</strong> A data analyst never looks at just one number. You need to weigh up ALL the stats together before making a decision. Age + caps + rating together tell a much better story than any one stat alone.</div>
+  <div class="callout"><strong>Best pick: Alex Müller (rating 88)</strong> — highest rating, good pace (61), prime age of 27, and 48 caps shows they're trusted and experienced at international level.</div>
+  <div class="callout-warn"><strong>Sam Torres?</strong> High caps (72) = experience, but age 34 is a risk — older players lose reflexes. Could be a good backup.</div>
+  <div class="callout-red"><strong>Jo Park?</strong> Only 19 with 3 caps — far too inexperienced for a World Cup, even if they're talented.</div>
+  <div class="info-box"><strong>Key idea:</strong> A data analyst never looks at just one number. You need to weigh ALL the stats together — age + caps + rating tell a much better story than any single stat alone.</div>
   <button class="btn btn-primary" onclick="goStep(1)">Next — Have a practice go →</button>
 </div>
 
-<!-- STEP 1: PRACTICE PICK -->
+<!-- STEP 1: PRACTICE PICK (Scotland) -->
 <div id="step1" class="step">
   <div class="step-header">
     <h2>Step 2 — Practice pick: 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland</h2>
-    <p>Use the data to pick your best Scotland XI (4-3-3 formation). You'll get feedback on your choices as you go, then see a suggested "model" XI to compare against.</p>
+    <p>Use the data to pick your best Scotland XI (4-3-3). You'll get live feedback on your choices, then see a suggested "model" XI to compare against.</p>
   </div>
-  <div class="warn-box">⚠️ This is just practice — there are no wrong answers, but your choices will be analysed! Pick carefully and use the data.</div>
+  <div class="warn-box">⚠️ This is practice — there are no wrong answers, but your choices will be analysed! Pick carefully and use the data.</div>
   <div class="counter" id="practiceCounter"></div>
   <div class="card" style="padding:0;overflow:hidden;">
     <div style="padding:1rem 1.25rem 0;">
@@ -213,15 +201,13 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
     </div>
     <div style="overflow-x:auto;">
       <table class="player-table">
-        <thead><tr>
-          <th>Player</th><th>Role</th><th>Pos</th>
+        <thead><tr><th>Player</th><th>Role</th><th>Pos</th>
           <th class="sortable" onclick="sortPractice('age')">Age ↕</th>
           <th class="sortable" onclick="sortPractice('caps')">Caps ↕</th>
           <th class="sortable" onclick="sortPractice('goals')">Goals ↕</th>
           <th class="sortable" onclick="sortPractice('pace')">Pace ↕</th>
           <th class="sortable" onclick="sortPractice('rating')">Rating ↕</th>
-          <th></th>
-        </tr></thead>
+          <th></th></tr></thead>
         <tbody id="practiceBody"></tbody>
       </table>
     </div>
@@ -229,7 +215,6 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
   <div class="card">
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;margin-bottom:.75rem;">Your practice XI</div>
     <div class="xi-grid" id="practiceXiGrid"></div>
-    <div id="practiceFeedback" style="margin-top:1rem;"></div>
   </div>
   <button class="btn btn-primary" id="practiceNextBtn" onclick="showModelXI()" disabled>See how you did →</button>
 </div>
@@ -238,7 +223,7 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 <div id="step2" class="step">
   <div class="step-header">
     <h2>Step 3 — How did you do?</h2>
-    <p>Here's the data-suggested XI compared to yours. The model picks the highest-rated player for each position slot.</p>
+    <p>Here's the data-suggested XI compared to yours. The model selects the highest-rated available player for each position group.</p>
   </div>
   <div id="modelComparison"></div>
   <div id="practiceScore" class="card" style="text-align:center;padding:1.5rem;"></div>
@@ -249,10 +234,10 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 <div id="step3" class="step">
   <div class="step-header">
     <h2>Step 4 — Choose your nation</h2>
-    <p>Now it's real! Pick the national team you want to manage at World Cup 2026.</p>
+    <p>All 48 FIFA World Cup 2026 teams. Pick the nation you want to manage.</p>
   </div>
   <input type="text" class="search-box" placeholder="🔍  Search for a country..." id="nationSearch" oninput="filterNations(this.value)">
-  <div class="nation-grid" id="nationGrid"></div>
+  <div id="nationGridAll"></div>
 </div>
 
 <!-- STEP 4: REAL SQUAD PICKER -->
@@ -274,16 +259,14 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
       </div>
     </div>
     <div style="overflow-x:auto;">
-      <table class="player-table" id="realTable">
-        <thead><tr>
-          <th>Player</th><th>Role</th><th>Pos</th>
+      <table class="player-table">
+        <thead><tr><th>Player</th><th>Role</th><th>Pos</th>
           <th class="sortable" onclick="sortReal('age')">Age ↕</th>
           <th class="sortable" onclick="sortReal('caps')">Caps ↕</th>
           <th class="sortable" onclick="sortReal('goals')">Goals ↕</th>
           <th class="sortable" onclick="sortReal('pace')">Pace ↕</th>
           <th class="sortable" onclick="sortReal('rating')">Rating ↕</th>
-          <th></th>
-        </tr></thead>
+          <th></th></tr></thead>
         <tbody id="realBody"></tbody>
       </table>
     </div>
@@ -291,7 +274,6 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
   <div class="card">
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;margin-bottom:.75rem;">Your starting XI</div>
     <div class="xi-grid" id="realXiGrid"></div>
-    <div id="realFeedback" style="margin-top:1rem;"></div>
   </div>
   <button class="btn btn-primary" id="realNextBtn" onclick="goStep(5)" disabled>Next — Answer questions →</button>
 </div>
@@ -301,35 +283,35 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
   <button class="btn-back" onclick="goStep(4)">← Back to squad</button>
   <div class="step-header">
     <h2>Step 5 — Questions about your squad</h2>
-    <p>Answer each question using the data you used to pick your team. Use the sentence starters to help you.</p>
+    <p>Answer each question using the data. Use the sentence starters to help you begin.</p>
   </div>
   <div class="q-block">
     <div class="q-label">1. Which stat did you find most useful when picking your squad, and why?</div>
     <div class="q-starter">💬 <span>"I found ________ most useful because it helped me to decide..."</span></div>
     <textarea class="q-input" rows="3" id="q1" placeholder="Write your answer here..."></textarea>
     <button class="hint-btn" onclick="toggleHint('h1')">💡 Need a hint?</button>
-    <div class="hint-text" id="h1">Think about the stats in the table: goals, pace, caps, age, rating. Which one did you look at the most? For example — did you sort by rating first? Did you check pace for your forwards? Did caps help you judge experience?</div>
+    <div class="hint-text" id="h1">Think about which column you sorted by most often. Did rating help most? Did you check pace when picking forwards? Did caps matter more for some positions?</div>
   </div>
   <div class="q-block">
     <div class="q-label">2. Look at your goalkeeper. What data told you they were the right choice over the others?</div>
     <div class="q-starter">💬 <span>"I chose ________ as my goalkeeper because the data showed that..."</span></div>
     <textarea class="q-input" rows="3" id="q2" placeholder="Write your answer here..."></textarea>
     <button class="hint-btn" onclick="toggleHint('h2')">💡 Need a hint?</button>
-    <div class="hint-text" id="h2">Compare your goalkeeper's stats to the other GKs you didn't pick. Which numbers were higher? For a goalkeeper, rating and caps are usually more important than pace or goals.</div>
+    <div class="hint-text" id="h2">Compare your goalkeeper's stats to the other GKs. For a goalkeeper, rating and caps are usually more important than pace or goals.</div>
   </div>
   <div class="q-block">
     <div class="q-label">3. Which player in your XI has the highest overall rating? Why do you think "rating" uses lots of stats instead of just one number like goals?</div>
     <div class="q-starter">💬 <span>"My highest rated player is ________. I think rating uses multiple stats because..."</span></div>
     <textarea class="q-input" rows="3" id="q3" placeholder="Write your answer here..."></textarea>
     <button class="hint-btn" onclick="toggleHint('h3')">💡 Need a hint?</button>
-    <div class="hint-text" id="h3">A goalkeeper who scores 0 goals isn't a bad player — goals just isn't the right stat for them. If rating only used goals, all the best-rated players would be strikers! Rating combines many different skills so it can fairly compare players in different positions.</div>
+    <div class="hint-text" id="h3">A goalkeeper who scores 0 goals isn't a bad player — goals just isn't the right stat for them. Rating combines many skills so it can fairly compare players across positions.</div>
   </div>
   <div class="q-block">
     <div class="q-label">4. Did you have to leave out a player you wanted because of the position limits? How did the data help you make that difficult choice?</div>
     <div class="q-starter">💬 <span>"I had a difficult choice between ________ and ________. I used the data to decide by..."</span></div>
     <textarea class="q-input" rows="3" id="q4" placeholder="Write your answer here..."></textarea>
     <button class="hint-btn" onclick="toggleHint('h4')">💡 Need a hint?</button>
-    <div class="hint-text" id="h4">If you had 5 great midfielders but only 3 spots, how did you decide who to drop? Which stats mattered most for that position? Did you compare two players side by side?</div>
+    <div class="hint-text" id="h4">Which position had the most competition? If you had 5 good midfielders but only 3 spots, how did the stats help you decide who to drop?</div>
   </div>
   <div class="q-block">
     <div class="extension-badge">Extension</div>
@@ -337,19 +319,17 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
     <div class="q-starter">💬 <span>"I would add ________ because it would help me to..."</span></div>
     <textarea class="q-input" rows="3" id="q5" placeholder="e.g. injuries, height, recent form, pass accuracy..."></textarea>
     <button class="hint-btn" onclick="toggleHint('h5')">💡 Need a hint?</button>
-    <div class="hint-text" id="h5">Think about what's missing. Could you tell if a player was injured? Could you tell if they'd been playing badly recently? Could you tell how tall a centre back is (important for headers!)? What extra data would make your decision better?</div>
+    <div class="hint-text" id="h5">Think about what's missing. Can you tell if a player is injured? Can you tell how tall a centre back is? What extra data would improve your decision?</div>
   </div>
-  <div style="display:flex;gap:10px;flex-wrap:wrap;">
-    <button class="btn btn-primary" onclick="goToSave()">Next — Save my squad →</button>
-  </div>
+  <button class="btn btn-primary" onclick="goStep(6)">Next — Save my squad →</button>
 </div>
 
-<!-- STEP 6: SAVE SQUAD -->
+<!-- STEP 6: SAVE -->
 <div id="step6" class="step">
   <button class="btn-back" onclick="goStep(5)">← Edit answers</button>
   <div class="step-header">
     <h2>Step 6 — Save your squad</h2>
-    <p>Enter your name to save your squad to the class leaderboard so you can challenge your classmates!</p>
+    <p>Enter your name to save your squad to the class leaderboard and challenge classmates!</p>
   </div>
   <div class="card" style="max-width:480px;">
     <div style="margin-bottom:1rem;">
@@ -359,33 +339,31 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
     <button class="btn btn-primary" onclick="saveSquad()">Save my squad 💾</button>
     <div id="saveStatus" style="margin-top:1rem;font-size:13px;"></div>
   </div>
-  <div class="info-box" style="max-width:480px;">Your squad data (nation, players, stats) is saved to a shared class leaderboard. Your written answers stay private on your screen only.</div>
+  <div class="info-box" style="max-width:480px;">Your squad data is saved to a shared class leaderboard. Your written answers stay private on your screen only.</div>
 </div>
 
-<!-- STEP 7: LEADERBOARD + CHALLENGE -->
+<!-- STEP 7: LEADERBOARD -->
 <div id="step7" class="step">
   <div class="step-header">
     <h2>⚽ Class leaderboard — challenge a classmate!</h2>
-    <p>All saved squads are shown below. Pick a classmate's squad to challenge them to a match simulation!</p>
+    <p>All saved squads are shown below. Click "Challenge" to run a match simulation against any classmate!</p>
   </div>
   <div id="mySquadSummary" class="card" style="margin-bottom:1rem;"></div>
   <div id="leaderboardTable"></div>
   <div style="margin-top:1rem;display:flex;gap:10px;flex-wrap:wrap;">
-    <button class="btn btn-outline btn" onclick="loadLeaderboard()">🔄 Refresh leaderboard</button>
-    <button class="btn btn-outline btn" onclick="showSummary()">📄 See my squad sheet</button>
+    <button class="btn btn-outline btn" onclick="loadLeaderboard()">🔄 Refresh</button>
+    <button class="btn btn-outline btn" onclick="showSummary()">📄 My squad sheet</button>
   </div>
 </div>
 
 <!-- STEP 8: MATCH SIM -->
 <div id="step8" class="step">
   <button class="btn-back" onclick="goStep(7)">← Back to leaderboard</button>
-  <div class="step-header">
-    <h2 id="matchTitle">Match simulation</h2>
-  </div>
+  <div class="step-header"><h2 id="matchTitle">Match simulation</h2></div>
   <div id="matchContent"></div>
 </div>
 
-<!-- STEP 9: FINAL SUMMARY -->
+<!-- STEP 9: SUMMARY -->
 <div id="step9" class="step">
   <button class="btn-back" onclick="goStep(7)">← Back to leaderboard</button>
   <div class="step-header"><h2>Your completed squad sheet</h2></div>
@@ -398,80 +376,114 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
 
 </main>
 <script>
-// ─── DATA ───────────────────────────────────────────────────────────────────
+// ─── ALL 48 NATIONS with FIFA website colours ────────────────────────────────
+// bg = primary kit colour, fg = text colour on that background
 const nations=[
-  {name:"Albania",flag:"🇦🇱",conf:"UEFA"},{name:"Argentina",flag:"🇦🇷",conf:"CONMEBOL"},
-  {name:"Australia",flag:"🇦🇺",conf:"AFC"},{name:"Austria",flag:"🇦🇹",conf:"UEFA"},
-  {name:"Belgium",flag:"🇧🇪",conf:"UEFA"},{name:"Brazil",flag:"🇧🇷",conf:"CONMEBOL"},
-  {name:"Cameroon",flag:"🇨🇲",conf:"CAF"},{name:"Canada",flag:"🇨🇦",conf:"CONCACAF"},
-  {name:"Chile",flag:"🇨🇱",conf:"CONMEBOL"},{name:"Colombia",flag:"🇨🇴",conf:"CONMEBOL"},
-  {name:"Côte d'Ivoire",flag:"🇨🇮",conf:"CAF"},{name:"Croatia",flag:"🇭🇷",conf:"UEFA"},
-  {name:"Denmark",flag:"🇩🇰",conf:"UEFA"},{name:"DR Congo",flag:"🇨🇩",conf:"CAF"},
-  {name:"Ecuador",flag:"🇪🇨",conf:"CONMEBOL"},{name:"Egypt",flag:"🇪🇬",conf:"CAF"},
-  {name:"England",flag:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",conf:"UEFA"},{name:"France",flag:"🇫🇷",conf:"UEFA"},
-  {name:"Germany",flag:"🇩🇪",conf:"UEFA"},{name:"Ghana",flag:"🇬🇭",conf:"CAF"},
-  {name:"Honduras",flag:"🇭🇳",conf:"CONCACAF"},{name:"Hungary",flag:"🇭🇺",conf:"UEFA"},
-  {name:"Indonesia",flag:"🇮🇩",conf:"AFC"},{name:"Iran",flag:"🇮🇷",conf:"AFC"},
-  {name:"Italy",flag:"🇮🇹",conf:"UEFA"},{name:"Japan",flag:"🇯🇵",conf:"AFC"},
-  {name:"Mexico",flag:"🇲🇽",conf:"CONCACAF"},{name:"Morocco",flag:"🇲🇦",conf:"CAF"},
-  {name:"Netherlands",flag:"🇳🇱",conf:"UEFA"},{name:"New Zealand",flag:"🇳🇿",conf:"OFC"},
-  {name:"Nigeria",flag:"🇳🇬",conf:"CAF"},{name:"Panama",flag:"🇵🇦",conf:"CONCACAF"},
-  {name:"Peru",flag:"🇵🇪",conf:"CONMEBOL"},{name:"Poland",flag:"🇵🇱",conf:"UEFA"},
-  {name:"Portugal",flag:"🇵🇹",conf:"UEFA"},{name:"Saudi Arabia",flag:"🇸🇦",conf:"AFC"},
-  {name:"Scotland",flag:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",conf:"UEFA"},{name:"Senegal",flag:"🇸🇳",conf:"CAF"},
-  {name:"Serbia",flag:"🇷🇸",conf:"UEFA"},{name:"Slovakia",flag:"🇸🇰",conf:"UEFA"},
-  {name:"South Korea",flag:"🇰🇷",conf:"AFC"},{name:"Spain",flag:"🇪🇸",conf:"UEFA"},
-  {name:"Switzerland",flag:"🇨🇭",conf:"UEFA"},{name:"Turkey",flag:"🇹🇷",conf:"UEFA"},
-  {name:"USA",flag:"🇺🇸",conf:"CONCACAF"},{name:"Uruguay",flag:"🇺🇾",conf:"CONMEBOL"},
-  {name:"Venezuela",flag:"🇻🇪",conf:"CONMEBOL"},{name:"Wales",flag:"🏴󠁧󠁢󠁷󠁬󠁳󠁿",conf:"UEFA"}
+  // UEFA (16)
+  {name:"England",flag:"🏴󠁧󠁢󠁥󠁮󠁧󠁿",conf:"UEFA",bg:"#FFFFFF",fg:"#1a1a1a",border:"#cc0000"},
+  {name:"France",flag:"🇫🇷",conf:"UEFA",bg:"#002395",fg:"#ffffff",border:"#ED2939"},
+  {name:"Spain",flag:"🇪🇸",conf:"UEFA",bg:"#AA151B",fg:"#ffffff",border:"#F1BF00"},
+  {name:"Portugal",flag:"🇵🇹",conf:"UEFA",bg:"#006600",fg:"#ffffff",border:"#FF0000"},
+  {name:"Germany",flag:"🇩🇪",conf:"UEFA",bg:"#ffffff",fg:"#1a1a1a",border:"#000000"},
+  {name:"Netherlands",flag:"🇳🇱",conf:"UEFA",bg:"#FF6600",fg:"#ffffff",border:"#003DA5"},
+  {name:"Belgium",flag:"🇧🇪",conf:"UEFA",bg:"#EF3340",fg:"#ffffff",border:"#000000"},
+  {name:"Croatia",flag:"🇭🇷",conf:"UEFA",bg:"#FF0000",fg:"#ffffff",border:"#0033A0"},
+  {name:"Scotland",flag:"🏴󠁧󠁢󠁳󠁣󠁴󠁿",conf:"UEFA",bg:"#003B8E",fg:"#ffffff",border:"#ffffff"},
+  {name:"Austria",flag:"🇦🇹",conf:"UEFA",bg:"#ED2939",fg:"#ffffff",border:"#ffffff"},
+  {name:"Switzerland",flag:"🇨🇭",conf:"UEFA",bg:"#FF0000",fg:"#ffffff",border:"#ffffff"},
+  {name:"Norway",flag:"🇳🇴",conf:"UEFA",bg:"#EF2B2D",fg:"#ffffff",border:"#002868"},
+  {name:"Sweden",flag:"🇸🇪",conf:"UEFA",bg:"#006AA7",fg:"#ffffff",border:"#FECC02"},
+  {name:"Türkiye",flag:"🇹🇷",conf:"UEFA",bg:"#E30A17",fg:"#ffffff",border:"#ffffff"},
+  {name:"Czechia",flag:"🇨🇿",conf:"UEFA",bg:"#D7141A",fg:"#ffffff",border:"#11457E"},
+  {name:"Bosnia & Herz.",flag:"🇧🇦",conf:"UEFA",bg:"#002395",fg:"#ffffff",border:"#FFCD00"},
+  // CONMEBOL (6)
+  {name:"Argentina",flag:"🇦🇷",conf:"CONMEBOL",bg:"#75AADB",fg:"#ffffff",border:"#ffffff"},
+  {name:"Brazil",flag:"🇧🇷",conf:"CONMEBOL",bg:"#009C3B",fg:"#ffffff",border:"#FFDF00"},
+  {name:"Uruguay",flag:"🇺🇾",conf:"CONMEBOL",bg:"#5cb8e4",fg:"#ffffff",border:"#ffffff"},
+  {name:"Colombia",flag:"🇨🇴",conf:"CONMEBOL",bg:"#FCD116",fg:"#1a1a1a",border:"#003087"},
+  {name:"Ecuador",flag:"🇪🇨",conf:"CONMEBOL",bg:"#FFD100",fg:"#1a1a1a",border:"#034EA2"},
+  {name:"Paraguay",flag:"🇵🇾",conf:"CONMEBOL",bg:"#D52B1E",fg:"#ffffff",border:"#0038A8"},
+  // AFC (9)
+  {name:"Japan",flag:"🇯🇵",conf:"AFC",bg:"#003DA5",fg:"#ffffff",border:"#BC002D"},
+  {name:"South Korea",flag:"🇰🇷",conf:"AFC",bg:"#C60C30",fg:"#ffffff",border:"#003478"},
+  {name:"Australia",flag:"🇦🇺",conf:"AFC",bg:"#00843D",fg:"#ffffff",border:"#FFD200"},
+  {name:"Iran",flag:"🇮🇷",conf:"AFC",bg:"#239F40",fg:"#ffffff",border:"#ffffff"},
+  {name:"Saudi Arabia",flag:"🇸🇦",conf:"AFC",bg:"#006C35",fg:"#ffffff",border:"#ffffff"},
+  {name:"Qatar",flag:"🇶🇦",conf:"AFC",bg:"#8D1B3D",fg:"#ffffff",border:"#ffffff"},
+  {name:"Uzbekistan",flag:"🇺🇿",conf:"AFC",bg:"#1EB53A",fg:"#ffffff",border:"#ffffff"},
+  {name:"Jordan",flag:"🇯🇴",conf:"AFC",bg:"#007A3D",fg:"#ffffff",border:"#CE1126"},
+  {name:"Iraq",flag:"🇮🇶",conf:"AFC",bg:"#CE1126",fg:"#ffffff",border:"#000000"},
+  // CAF (9)
+  {name:"Morocco",flag:"🇲🇦",conf:"CAF",bg:"#C1272D",fg:"#ffffff",border:"#006233"},
+  {name:"Senegal",flag:"🇸🇳",conf:"CAF",bg:"#00853F",fg:"#ffffff",border:"#FDEF42"},
+  {name:"Egypt",flag:"🇪🇬",conf:"CAF",bg:"#CE1126",fg:"#ffffff",border:"#ffffff"},
+  {name:"Algeria",flag:"🇩🇿",conf:"CAF",bg:"#006233",fg:"#ffffff",border:"#D21034"},
+  {name:"Tunisia",flag:"🇹🇳",conf:"CAF",bg:"#E70013",fg:"#ffffff",border:"#ffffff"},
+  {name:"South Africa",flag:"🇿🇦",conf:"CAF",bg:"#007A4D",fg:"#ffffff",border:"#FFB81C"},
+  {name:"Ghana",flag:"🇬🇭",conf:"CAF",bg:"#006B3F",fg:"#ffffff",border:"#FCD116"},
+  {name:"Ivory Coast",flag:"🇨🇮",conf:"CAF",bg:"#F77F00",fg:"#ffffff",border:"#009A44"},
+  {name:"Cape Verde",flag:"🇨🇻",conf:"CAF",bg:"#003893",fg:"#ffffff",border:"#CF2027"},
+  {name:"DR Congo",flag:"🇨🇩",conf:"CAF",bg:"#007FFF",fg:"#ffffff",border:"#F7D618"},
+  // CONCACAF (6)
+  {name:"USA",flag:"🇺🇸",conf:"CONCACAF",bg:"#002868",fg:"#ffffff",border:"#BF0A30"},
+  {name:"Mexico",flag:"🇲🇽",conf:"CONCACAF",bg:"#006847",fg:"#ffffff",border:"#CE1126"},
+  {name:"Canada",flag:"🇨🇦",conf:"CONCACAF",bg:"#FF0000",fg:"#ffffff",border:"#ffffff"},
+  {name:"Panama",flag:"🇵🇦",conf:"CONCACAF",bg:"#DA121A",fg:"#ffffff",border:"#003F87"},
+  {name:"Haiti",flag:"🇭🇹",conf:"CONCACAF",bg:"#00209F",fg:"#ffffff",border:"#D21034"},
+  {name:"Curaçao",flag:"🇨🇼",conf:"CONCACAF",bg:"#002B7F",fg:"#ffffff",border:"#F9E814"},
+  // OFC (1)
+  {name:"New Zealand",flag:"🇳🇿",conf:"OFC",bg:"#000000",fg:"#ffffff",border:"#ffffff"}
 ];
-const PT={
-  GK:[{role:"First-choice keeper",pace:[48,64],goals:[0,1],caps:[35,95],rating:[76,93]},{role:"Reserve keeper",pace:[44,58],goals:[0,0],caps:[4,28],rating:[67,79]},{role:"Young keeper",pace:[52,67],goals:[0,0],caps:[1,12],rating:[63,74]}],
-  DEF:[{role:"Left back",pace:[67,84],goals:[1,7],caps:[22,72],rating:[74,88]},{role:"Right back",pace:[70,87],goals:[1,8],caps:[22,82],rating:[74,90]},{role:"Centre back",pace:[54,71],goals:[2,10],caps:[32,105],rating:[76,92]},{role:"Centre back",pace:[53,69],goals:[1,7],caps:[26,92],rating:[74,89]},{role:"Sweeper",pace:[57,74],goals:[1,5],caps:[14,58],rating:[70,83]},{role:"Wing back",pace:[71,87],goals:[2,9],caps:[10,52],rating:[72,86]}],
-  MID:[{role:"Defensive mid",pace:[59,74],goals:[2,9],caps:[32,92],rating:[76,91]},{role:"Box-to-box mid",pace:[67,83],goals:[5,16],caps:[26,82],rating:[77,92]},{role:"Attacking mid",pace:[64,81],goals:[9,22],caps:[21,76],rating:[78,93]},{role:"Left winger",pace:[77,94],goals:[6,19],caps:[20,72],rating:[76,91]},{role:"Right winger",pace:[78,95],goals:[7,20],caps:[20,68],rating:[76,91]},{role:"Deep playmaker",pace:[54,69],goals:[1,6],caps:[20,66],rating:[72,86]}],
-  FWD:[{role:"Centre forward",pace:[68,85],goals:[16,47],caps:[22,82],rating:[78,94]},{role:"Target striker",pace:[62,78],goals:[12,38],caps:[18,72],rating:[76,91]},{role:"Second striker",pace:[73,91],goals:[10,32],caps:[14,62],rating:[76,90]},{role:"Left winger",pace:[79,95],goals:[8,24],caps:[14,57],rating:[75,90]},{role:"False 9",pace:[64,79],goals:[10,26],caps:[19,62],rating:[77,92]}]
-};
-const FN=["Luca","Marco","Carlos","James","Ryo","Kai","Emil","Jakub","Ahmed","Yusuf","Ivan","Pedro","Leon","Sven","Omar","Tariq","Noa","Felix","Diego","Matteo","Alexei","Hamid","Kofi","Tomas","Anders","Baptiste","Mikel","Rashid","Samuel","Luis","Erik","Stefan","Nico","Ravi","Samir","Bruno","Hector","Kwame","Arjan","Tomas"];
-const LN=["Silva","Müller","García","Osei","Kovač","Tanaka","Nkosi","Andersen","Dubois","Rios","Petrov","Yilmaz","Hassan","Lehmann","Mensah","Vargas","Johansson","Diallo","Moretti","Park","Svensson","Torres","Ibrahim","Novak","Berg","Santos","Fischer","Adeyemi","Ramos","Larsson","Fernandez","Bakker","Kowalski","Özdemir","Monteiro","Castillo","Iheanacho","Abramov","Nguyen","Dembélé"];
 
-// Fixed Scotland practice squad
+// ─── SCOTLAND PRACTICE SQUAD (real players, accurate stats) ─────────────────
 const scotlandSquad=[
-  {id:101,name:"Craig Gordon",pos:"GK",role:"First-choice keeper",age:41,caps:67,goals:0,pace:44,rating:78},
+  {id:101,name:"Angus Gunn",pos:"GK",role:"First-choice keeper",age:29,caps:14,goals:0,pace:52,rating:76},
   {id:102,name:"Liam Kelly",pos:"GK",role:"Reserve keeper",age:32,caps:12,goals:0,pace:50,rating:72},
-  {id:103,name:"Ross Doohan",pos:"GK",role:"Young keeper",age:24,caps:3,goals:0,pace:54,rating:65},
-  {id:104,name:"Andrew Robertson",pos:"DEF",role:"Left back",age:31,caps:74,goals:4,pace:82,rating:88},
-  {id:105,name:"Aaron Hickey",pos:"DEF",role:"Right back",age:22,caps:18,goals:2,pace:80,rating:80},
-  {id:106,name:"Grant Hanley",pos:"DEF",role:"Centre back",age:33,caps:58,goals:5,pace:58,rating:78},
-  {id:107,name:"Liam Cooper",pos:"DEF",role:"Centre back",age:33,caps:22,goals:1,pace:55,rating:75},
-  {id:108,name:"Scott McKenna",pos:"DEF",role:"Sweeper",age:28,caps:36,goals:3,pace:68,rating:79},
-  {id:109,name:"Nathan Patterson",pos:"DEF",role:"Wing back",age:23,caps:20,goals:1,pace:85,rating:77},
-  {id:110,name:"Callum McGregor",pos:"MID",role:"Defensive mid",age:31,caps:52,goals:6,pace:70,rating:84},
-  {id:111,name:"John McGinn",pos:"MID",role:"Box-to-box mid",age:30,caps:62,goals:14,pace:74,rating:86},
-  {id:112,name:"Billy Gilmour",pos:"MID",role:"Attacking mid",age:23,caps:24,goals:2,pace:72,rating:82},
-  {id:113,name:"Ryan Christie",pos:"MID",role:"Left winger",age:29,caps:48,goals:12,pace:76,rating:81},
-  {id:114,name:"Stuart Armstrong",pos:"MID",role:"Right winger",age:32,caps:46,goals:9,pace:73,rating:79},
-  {id:115,name:"Kenny McLean",pos:"MID",role:"Deep playmaker",age:33,caps:38,goals:4,pace:62,rating:75},
-  {id:116,name:"Che Adams",pos:"FWD",role:"Centre forward",age:28,caps:30,goals:12,pace:80,rating:80},
-  {id:117,name:"Lawrence Shankland",pos:"FWD",role:"Target striker",age:29,caps:18,goals:10,pace:72,rating:78},
-  {id:118,name:"Lyndon Dykes",pos:"FWD",role:"Second striker",age:29,caps:34,goals:14,pace:74,rating:76},
-  {id:119,name:"Ryan Gauld",pos:"FWD",role:"Left winger",age:28,caps:6,goals:2,pace:75,rating:74},
-  {id:120,name:"Scott Wright",pos:"FWD",role:"False 9",age:26,caps:8,goals:3,pace:78,rating:72}
+  {id:103,name:"Ross Doohan",pos:"GK",role:"Young keeper",age:24,caps:4,goals:0,pace:54,rating:65},
+  {id:104,name:"Andrew Robertson",pos:"DEF",role:"Left back",age:31,caps:74,goals:4,pace:81,rating:88},
+  {id:105,name:"Aaron Hickey",pos:"DEF",role:"Right back",age:22,caps:20,goals:2,pace:80,rating:80},
+  {id:106,name:"Grant Hanley",pos:"DEF",role:"Centre back",age:33,caps:58,goals:5,pace:58,rating:76},
+  {id:107,name:"Scott McKenna",pos:"DEF",role:"Centre back",age:28,caps:38,goals:3,pace:67,rating:79},
+  {id:108,name:"Liam Cooper",pos:"DEF",role:"Sweeper",age:33,caps:22,goals:1,pace:54,rating:73},
+  {id:109,name:"Nathan Patterson",pos:"DEF",role:"Wing back",age:23,caps:22,goals:1,pace:84,rating:77},
+  {id:110,name:"Callum McGregor",pos:"MID",role:"Defensive mid",age:31,caps:55,goals:6,pace:70,rating:84},
+  {id:111,name:"John McGinn",pos:"MID",role:"Box-to-box mid",age:30,caps:63,goals:14,pace:74,rating:86},
+  {id:112,name:"Billy Gilmour",pos:"MID",role:"Attacking mid",age:23,caps:26,goals:2,pace:72,rating:82},
+  {id:113,name:"Ryan Christie",pos:"MID",role:"Left winger",age:29,caps:50,goals:12,pace:76,rating:80},
+  {id:114,name:"Stuart Armstrong",pos:"MID",role:"Right winger",age:32,caps:48,goals:9,pace:73,rating:78},
+  {id:115,name:"Kenny McLean",pos:"MID",role:"Deep playmaker",age:33,caps:40,goals:4,pace:62,rating:74},
+  {id:116,name:"Che Adams",pos:"FWD",role:"Centre forward",age:28,caps:32,goals:12,pace:80,rating:80},
+  {id:117,name:"Lawrence Shankland",pos:"FWD",role:"Target striker",age:29,caps:20,goals:12,pace:72,rating:78},
+  {id:118,name:"Lyndon Dykes",pos:"FWD",role:"Second striker",age:29,caps:36,goals:14,pace:74,rating:76},
+  {id:119,name:"Ryan Gauld",pos:"FWD",role:"Left winger",age:29,caps:7,goals:2,pace:75,rating:74},
+  {id:120,name:"Scott Wright",pos:"FWD",role:"False 9",age:26,caps:9,goals:3,pace:78,rating:72}
 ];
+const scotlandModel={GK:[101],DEF:[104,109,107,106],MID:[111,110,112],FWD:[116,118,117]};
 
-// Model answer for Scotland (best by rating per position slot)
-// GK: Craig Gordon (78) over Liam Kelly (72) and Ross Doohan (65)
-// DEF: Robertson (88), Hickey (80), McKenna (79), Hanley (78) — top 4 by rating
-// MID: McGinn (86), McGregor (84), Gilmour (82) — top 3 by rating
-// FWD: Adams (80), Dykes (76), Christie (81 — MID but FWD slot goes Che/Dykes/Shankland)
-const scotlandModel={
-  GK:[101],DEF:[104,109,108,106],MID:[111,110,112],FWD:[116,118,117]
+// ─── REAL PLAYER DATA PER NATION ─────────────────────────────────────────────
+// Each entry: array of 20 players (3 GK, 6 DEF, 6 MID, 5 FWD)
+// Stats: age, caps, goals, pace, rating — all as realistic as possible
+let realSquads={};
+fetch('squads.json')
+  .then(r=>r.json())
+  .then(data=>{realSquads=data;})
+  .catch(()=>console.warn('squads.json not found — only generated squads will be available'));
+
+
+// Generic player generator for nations without specific data
+const PT={
+  GK:[{role:"First-choice keeper",pace:[48,64],goals:[0,1],caps:[20,80],rating:[72,86]},{role:"Reserve keeper",pace:[44,58],goals:[0,0],caps:[4,28],rating:[65,78]},{role:"Young keeper",pace:[52,67],goals:[0,0],caps:[1,10],rating:[62,72]}],
+  DEF:[{role:"Left back",pace:[67,84],goals:[1,7],caps:[15,70],rating:[72,85]},{role:"Right back",pace:[70,87],goals:[1,8],caps:[15,78],rating:[72,86]},{role:"Centre back",pace:[54,71],goals:[1,8],caps:[20,90],rating:[74,88]},{role:"Centre back",pace:[53,69],goals:[1,6],caps:[18,82],rating:[72,85]},{role:"Sweeper",pace:[57,74],goals:[1,4],caps:[12,55],rating:[68,80]},{role:"Wing back",pace:[71,87],goals:[1,8],caps:[8,48],rating:[70,83]}],
+  MID:[{role:"Defensive mid",pace:[59,74],goals:[1,8],caps:[20,80],rating:[74,88]},{role:"Box-to-box mid",pace:[67,83],goals:[4,14],caps:[18,72],rating:[74,88]},{role:"Attacking mid",pace:[64,81],goals:[7,20],caps:[15,68],rating:[75,89]},{role:"Left winger",pace:[77,94],goals:[5,18],caps:[14,65],rating:[74,87]},{role:"Right winger",pace:[78,95],goals:[6,18],caps:[14,62],rating:[74,87]},{role:"Deep playmaker",pace:[54,69],goals:[1,6],caps:[18,60],rating:[70,82]}],
+  FWD:[{role:"Centre forward",pace:[68,85],goals:[12,44],caps:[16,75],rating:[75,90]},{role:"Target striker",pace:[62,78],goals:[10,36],caps:[14,68],rating:[73,87]},{role:"Second striker",pace:[73,91],goals:[8,28],caps:[10,55],rating:[73,87]},{role:"Left winger",pace:[79,95],goals:[6,22],caps:[10,50],rating:[72,86]},{role:"False 9",pace:[64,79],goals:[8,24],caps:[14,55],rating:[74,88]}]
 };
-
-const posLimits={GK:1,DEF:4,MID:3,FWD:3};
+const FN=["Luca","Marco","Carlos","James","Ryo","Kai","Emil","Jakub","Ahmed","Yusuf","Ivan","Pedro","Leon","Sven","Omar","Tariq","Noa","Felix","Diego","Matteo","Alexei","Hamid","Kofi","Tomas","Anders","Baptiste","Mikel","Rashid","Samuel","Luis","Erik","Stefan","Nico","Ravi","Samir","Bruno","Hector","Kwame","Arjan","Tomás"];
+const LN=["Silva","Müller","García","Osei","Kovač","Tanaka","Nkosi","Andersen","Dubois","Rios","Petrov","Yilmaz","Hassan","Lehmann","Mensah","Vargas","Johansson","Diallo","Moretti","Park","Svensson","Torres","Ibrahim","Novak","Berg","Santos","Fischer","Adeyemi","Ramos","Larsson","Fernandez","Bakker","Kowalski","Özdemir","Monteiro","Castillo","Iheanacho","Abramov","Nguyen","Dembélé"];
 const nameCache={};
 function rnd(a,b){return Math.floor(Math.random()*(b-a+1))+a;}
 function genPlayers(nation){
-  if(nameCache[nation])return nameCache[nation];
+  if(realSquads[nation]) return realSquads[nation].map((p,i)=>({...p,id:i+1}));
+  if(nameCache[nation]) return nameCache[nation];
   const seed=nation.split('').reduce((a,c)=>a+c.charCodeAt(0),0);
   const players=[];let id=1;
   Object.entries(PT).forEach(([pos,templates])=>{
@@ -484,13 +496,11 @@ function genPlayers(nation){
   nameCache[nation]=players;return players;
 }
 
-// ─── STATE ───────────────────────────────────────────────────────────────────
+const posLimits={GK:1,DEF:4,MID:3,FWD:3};
 let practiceSquad=[],practicePosFilter="ALL",practiceSortCol="rating",practiceSortDir=-1;
 let realPlayers=[],realSquad=[],realPosFilter="ALL",realSortCol="rating",realSortDir=-1;
-let currentNation="",savedName="",savedKey="";
-let mySquadData=null;
+let currentNation="",savedName="",mySquadData=null;
 
-// ─── PROGRESS ────────────────────────────────────────────────────────────────
 const stepProgress=[0,14,28,42,56,70,84,92,96,100];
 function goStep(n){
   document.querySelectorAll(".step").forEach(s=>s.classList.remove("active"));
@@ -499,149 +509,32 @@ function goStep(n){
   window.scrollTo(0,0);
 }
 
-// ─── PRACTICE PICK ───────────────────────────────────────────────────────────
-function filterPractice(pos,btn){practicePosFilter=pos;document.querySelectorAll("#step1 .tab-btn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderPracticeTable();}
-function sortPractice(col){if(practiceSortCol===col)practiceSortDir*=-1;else{practiceSortCol=col;practiceSortDir=-1;}renderPracticeTable();}
+// ─── NATIONS DISPLAY ─────────────────────────────────────────────────────────
+const confOrder=["UEFA","CONMEBOL","AFC","CAF","CONCACAF","OFC"];
+const confNames={"UEFA":"Europe (UEFA)","CONMEBOL":"South America (CONMEBOL)","AFC":"Asia (AFC)","CAF":"Africa (CAF)","CONCACAF":"N./C. America (CONCACAF)","OFC":"Oceania (OFC)"};
 
-function renderPracticeTable(){
-  let filtered=scotlandSquad.filter(p=>practicePosFilter==="ALL"||p.pos===practicePosFilter); // scotlandSquad now holds Scotland players
-  filtered.sort((a,b)=>(a[practiceSortCol]-b[practiceSortCol])*practiceSortDir);
-  const pc={GK:0,DEF:0,MID:0,FWD:0};practiceSquad.forEach(p=>pc[p.pos]++);
-  document.getElementById("practiceBody").innerHTML=filtered.map(p=>{
-    const inS=practiceSquad.find(s=>s.id===p.id);
-    const lim=!inS&&pc[p.pos]>=posLimits[p.pos];
-    const full=practiceSquad.length>=11&&!inS;
-    const dis=(lim||full)?" disabled":"";
-    const pcls=inS?" picked":"";
-    return`<tr><td><strong>${p.name}</strong></td><td style="color:var(--text-muted);font-size:12px">${p.role}</td><td><span class="pos-badge pos-${p.pos}">${p.pos}</span></td><td>${p.age}</td><td>${p.caps}</td><td>${p.goals}</td><td>${p.pace}</td><td><strong>${p.rating}</strong></td><td><button class="pick-btn${pcls}"${dis} onclick="togglePractice(${p.id})">${inS?"✓ In XI":"Pick"}</button></td></tr>`;
-  }).join("");
-}
-
-function togglePractice(id){
-  const p=scotlandSquad.find(x=>x.id===id);
-  const idx=practiceSquad.findIndex(s=>s.id===id);
-  if(idx>=0){practiceSquad.splice(idx,1);}
-  else{if(practiceSquad.length>=11)return;if(practiceSquad.filter(s=>s.pos===p.pos).length>=posLimits[p.pos])return;practiceSquad.push(p);}
-  renderPracticeTable();renderPracticeXI();updatePracticeCounter();
-  document.getElementById("practiceNextBtn").disabled=practiceSquad.length<11;
-}
-
-function renderPracticeXI(){
-  const byPos={GK:[],DEF:[],MID:[],FWD:[]};
-  practiceSquad.forEach(p=>byPos[p.pos].push(p));
-  const rows=[{pos:"GK",n:1},{pos:"DEF",n:4},{pos:"MID",n:3},{pos:"FWD",n:3}];
-  let html="";
-  rows.forEach(row=>{
-    for(let i=0;i<row.n;i++){
-      const p=byPos[row.pos][i];
-      if(p){
-        const fb=getPracticeFeedback(p);
-        html+=`<div class="xi-slot"><div class="slot-pos">${row.pos}</div><div class="slot-name">${p.name}</div><div class="slot-stats">⭐${p.rating} 💨${p.pace} ⚽${p.goals}</div>${fb}<button class="remove-btn" onclick="togglePractice(${p.id})">✕ Remove</button></div>`;
-      }else{html+=`<div class="xi-slot empty"><div class="slot-pos">${row.pos}</div><div class="slot-name" style="color:var(--text-muted);font-weight:400;font-size:12px">Empty slot</div></div>`;}
-    }
-  });
-  document.getElementById("practiceXiGrid").innerHTML=html;
-}
-
-function getPracticeFeedback(p){
-  const msgs=[];
-  if(p.pos==="GK"){
-    if(p.caps<10)msgs.push({cls:"fb-bad",txt:"⚠️ Only "+p.caps+" caps — very inexperienced for a World Cup!"});
-    else if(p.caps>40&&p.rating>83)msgs.push({cls:"fb-good",txt:"✓ Experienced and highly rated — solid choice."});
-    if(p.age>33)msgs.push({cls:"fb-warn",txt:"⚠️ Age "+p.age+" — is that a risk over 90 minutes?"});
+function renderNations(filter=""){
+  const container=document.getElementById("nationGridAll");
+  const filtered=nations.filter(n=>n.name.toLowerCase().includes(filter.toLowerCase())||n.conf.toLowerCase().includes(filter.toLowerCase()));
+  if(filter){
+    container.innerHTML=`<div class="nation-grid">${filtered.map(n=>nationBtn(n)).join("")}</div>`;
+  } else {
+    container.innerHTML=confOrder.map(conf=>{
+      const ns=filtered.filter(n=>n.conf===conf);
+      if(!ns.length)return "";
+      return `<div class="conf-label">${confNames[conf]} (${ns.length})</div><div class="nation-grid">${ns.map(n=>nationBtn(n)).join("")}</div>`;
+    }).join("");
   }
-  if(p.pos==="DEF"){
-    if(p.pace<58)msgs.push({cls:"fb-warn",txt:"⚠️ Pace "+p.pace+" — might struggle against fast forwards."});
-    else if(p.pace>80)msgs.push({cls:"fb-good",txt:"✓ Pace "+p.pace+" — great for a modern defender."});
-  }
-  if(p.pos==="MID"||p.pos==="FWD"){
-    if(p.pos==="FWD"&&p.goals<10)msgs.push({cls:"fb-warn",txt:"⚠️ Only "+p.goals+" goals — low output for a forward."});
-    if(p.pace>85)msgs.push({cls:"fb-good",txt:"✓ Pace "+p.pace+" — a real threat in attack!"});
-  }
-  if(p.rating<74)msgs.push({cls:"fb-bad",txt:"⚠️ Rating "+p.rating+" — is there a better option available?"});
-  else if(p.rating>=88)msgs.push({cls:"fb-good",txt:"✓ Rating "+p.rating+" — one of the best in this squad!"});
-  if(msgs.length===0)return`<div class="fb-good" style="margin-top:4px">✓ Decent pick.</div>`;
-  return msgs.map(m=>`<div class="${m.cls}" style="margin-top:4px;font-size:11px">${m.txt}</div>`).join("");
 }
-
-function updatePracticeCounter(){
-  const byPos={GK:0,DEF:0,MID:0,FWD:0};practiceSquad.forEach(p=>byPos[p.pos]++);
-  let html=`<div class="counter-chip${practiceSquad.length===11?" done":""}">Total: <strong>${practiceSquad.length}/11</strong></div>`;
-  Object.entries(posLimits).forEach(([pos,need])=>{const c=byPos[pos];html+=`<div class="counter-chip${c===need?" done":""}">${pos}: <strong>${c}/${need}</strong></div>`;});
-  document.getElementById("practiceCounter").innerHTML=html;
+function nationBtn(n){
+  const textCol=n.fg||"#ffffff";
+  const borderCol=n.border||n.bg;
+  return `<button class="nation-btn" style="background:${n.bg};border-color:${borderCol};color:${textCol};" onclick="selectNation('${n.name.replace(/'/g,"\\'")}')">
+    <div class="nation-btn-inner"><span class="flag">${n.flag}</span><span class="name" style="color:${textCol}">${n.name}</span><span class="conf" style="color:${textCol}">${n.conf}</span></div>
+  </button>`;
 }
+function filterNations(q){renderNations(q);}
 
-// ─── MODEL XI REVEAL ─────────────────────────────────────────────────────────
-function showModelXI(){
-  // Group model and pupil picks by position, both sorted by rating descending
-  // Matching is positional-group based: a pupil's player counts as a match if
-  // their id appears anywhere in the model's list for that position.
-  const modelIdsByPos={
-    GK:new Set(scotlandModel.GK),
-    DEF:new Set(scotlandModel.DEF),
-    MID:new Set(scotlandModel.MID),
-    FWD:new Set(scotlandModel.FWD)
-  };
-  // Sort pupil's picks per position by rating desc to align display order with model
-  const pupilByPos={
-    GK:[...practiceSquad.filter(p=>p.pos==="GK")].sort((a,b)=>b.rating-a.rating),
-    DEF:[...practiceSquad.filter(p=>p.pos==="DEF")].sort((a,b)=>b.rating-a.rating),
-    MID:[...practiceSquad.filter(p=>p.pos==="MID")].sort((a,b)=>b.rating-a.rating),
-    FWD:[...practiceSquad.filter(p=>p.pos==="FWD")].sort((a,b)=>b.rating-a.rating)
-  };
-  // Sort model players per position by rating desc too
-  const modelSorted=[
-    ...scotlandModel.GK.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating),
-    ...scotlandModel.DEF.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating),
-    ...scotlandModel.MID.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating),
-    ...scotlandModel.FWD.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating)
-  ];
-
-  let matches=0;
-  let html=`<div class="card" style="padding:0;overflow:hidden;">
-    <div style="padding:1rem 1.25rem .5rem;font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;">Data-suggested XI vs your XI</div>
-    <div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:13px;">
-    <thead><tr>
-      <th style="padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;">Pos</th>
-      <th style="padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;">Suggested pick</th>
-      <th style="padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;">Rating</th>
-      <th style="padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;">Your pick</th>
-      <th style="padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;">Match?</th>
-    </tr></thead><tbody>`;
-
-  const posQueues={GK:[...pupilByPos.GK],DEF:[...pupilByPos.DEF],MID:[...pupilByPos.MID],FWD:[...pupilByPos.FWD]};
-  modelSorted.forEach(mp=>{
-    const yourPlayer=posQueues[mp.pos].shift()||null;
-    // Match = pupil's player for this slot is anywhere in the model's position group
-    const matched=yourPlayer&&modelIdsByPos[mp.pos].has(yourPlayer.id);
-    if(matched)matches++;
-    const yourName=yourPlayer?yourPlayer.name:"—";
-    const yourRating=yourPlayer?yourPlayer.rating:"—";
-    html+=`<tr>
-      <td style="padding:9px 10px;border-bottom:1px solid var(--border)"><span class="pos-badge pos-${mp.pos}">${mp.pos}</span></td>
-      <td style="padding:9px 10px;border-bottom:1px solid var(--border);font-weight:600">${mp.name}</td>
-      <td style="padding:9px 10px;border-bottom:1px solid var(--border)">⭐${mp.rating}</td>
-      <td style="padding:9px 10px;border-bottom:1px solid var(--border)">${yourName}${yourPlayer&&!matched?` <span style="font-size:11px;color:var(--text-muted)">(⭐${yourRating})</span>`:""}</td>
-      <td style="padding:9px 10px;border-bottom:1px solid var(--border)"><span class="match-badge ${matched?"match-yes":"match-no"}">${matched?"✓ Match":"✗ Different"}</span></td>
-    </tr>`;
-  });
-  html+=`</tbody></table></div></div>`;
-  document.getElementById("modelComparison").innerHTML=html;
-
-  const pct=Math.round((matches/11)*100);
-  let verdict="",cls="";
-  if(pct>=80){verdict="Excellent data analysis! You picked almost exactly what the stats suggest.";cls="color:var(--green)";}
-  else if(pct>=50){verdict="Good effort — you agreed with the data on most positions. Look at where you differed and think about why.";cls="color:var(--gold)";}
-  else{verdict="Your picks were quite different from the data suggestions. Look at the table above — can you see why the data prefers different players?";cls="color:var(--red)";}
-  document.getElementById("practiceScore").innerHTML=`<div style="font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:700;${cls}">${matches}/11 matched</div><div style="font-size:14px;color:var(--text-muted);margin-top:.5rem">${verdict}</div>`;
-  goStep(2);
-}
-
-// ─── NATIONS ─────────────────────────────────────────────────────────────────
-function renderNations(list){
-  document.getElementById("nationGrid").innerHTML=list.map(n=>`<button class="nation-btn" onclick="selectNation('${n.name.replace(/'/g,"\\'")}')"><span class="flag">${n.flag}</span><span class="name">${n.name}</span><span class="conf">${n.conf}</span></button>`).join("");
-}
-function filterNations(q){renderNations(nations.filter(n=>n.name.toLowerCase().includes(q.toLowerCase())));}
 function selectNation(name){
   currentNation=name;
   const n=nations.find(x=>x.name===name);
@@ -650,27 +543,125 @@ function selectNation(name){
   renderRealTable();renderRealXI();updateRealCounter();goStep(4);
 }
 
+// ─── PRACTICE ────────────────────────────────────────────────────────────────
+function filterPractice(pos,btn){practicePosFilter=pos;document.querySelectorAll("#step1 .tab-btn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderPracticeTable();}
+function sortPractice(col){if(practiceSortCol===col)practiceSortDir*=-1;else{practiceSortCol=col;practiceSortDir=-1;}renderPracticeTable();}
+function renderPracticeTable(){
+  let f=scotlandSquad.filter(p=>practicePosFilter==="ALL"||p.pos===practicePosFilter);
+  f.sort((a,b)=>(a[practiceSortCol]-b[practiceSortCol])*practiceSortDir);
+  const pc={GK:0,DEF:0,MID:0,FWD:0};practiceSquad.forEach(p=>pc[p.pos]++);
+  document.getElementById("practiceBody").innerHTML=f.map(p=>{
+    const inS=practiceSquad.find(s=>s.id===p.id);
+    const dis=(!inS&&(pc[p.pos]>=posLimits[p.pos]||practiceSquad.length>=11))?" disabled":"";
+    return`<tr><td><strong>${p.name}</strong></td><td style="color:var(--text-muted);font-size:12px">${p.role}</td><td><span class="pos-badge pos-${p.pos}">${p.pos}</span></td><td>${p.age}</td><td>${p.caps}</td><td>${p.goals}</td><td>${p.pace}</td><td><strong>${p.rating}</strong></td><td><button class="pick-btn${inS?" picked":""}"${dis} onclick="togglePractice(${p.id})">${inS?"✓ In XI":"Pick"}</button></td></tr>`;
+  }).join("");
+}
+function togglePractice(id){
+  const p=scotlandSquad.find(x=>x.id===id);
+  const idx=practiceSquad.findIndex(s=>s.id===id);
+  if(idx>=0){practiceSquad.splice(idx,1);}
+  else{if(practiceSquad.length>=11||practiceSquad.filter(s=>s.pos===p.pos).length>=posLimits[p.pos])return;practiceSquad.push(p);}
+  renderPracticeTable();renderPracticeXI();updatePracticeCounter();
+  document.getElementById("practiceNextBtn").disabled=practiceSquad.length<11;
+}
+function renderPracticeXI(){
+  const byPos={GK:[],DEF:[],MID:[],FWD:[]};practiceSquad.forEach(p=>byPos[p.pos].push(p));
+  const rows=[{pos:"GK",n:1},{pos:"DEF",n:4},{pos:"MID",n:3},{pos:"FWD",n:3}];
+  let html="";
+  rows.forEach(r=>{for(let i=0;i<r.n;i++){const p=byPos[r.pos][i];
+    if(p){const fb=getFeedback(p);html+=`<div class="xi-slot"><div class="slot-pos">${r.pos}</div><div class="slot-name">${p.name}</div><div class="slot-stats">⭐${p.rating} 💨${p.pace} ⚽${p.goals}</div>${fb}<button class="remove-btn" onclick="togglePractice(${p.id})">✕ Remove</button></div>`;}
+    else{html+=`<div class="xi-slot empty"><div class="slot-pos">${r.pos}</div><div class="slot-name" style="color:var(--text-muted);font-weight:400;font-size:12px">Empty slot</div></div>`;}}
+  });
+  document.getElementById("practiceXiGrid").innerHTML=html;
+}
+function updatePracticeCounter(){
+  const byPos={GK:0,DEF:0,MID:0,FWD:0};practiceSquad.forEach(p=>byPos[p.pos]++);
+  let h=`<div class="counter-chip${practiceSquad.length===11?" done":""}">Total: <strong>${practiceSquad.length}/11</strong></div>`;
+  Object.entries(posLimits).forEach(([pos,need])=>{const c=byPos[pos];h+=`<div class="counter-chip${c===need?" done":""}">${pos}: <strong>${c}/${need}</strong></div>`;});
+  document.getElementById("practiceCounter").innerHTML=h;
+}
+
+// ─── FEEDBACK ────────────────────────────────────────────────────────────────
+function getFeedback(p){
+  const msgs=[];
+  if(p.pos==="GK"){
+    if(p.caps<8)msgs.push({cls:"fb-bad",txt:"⚠️ Only "+p.caps+" caps — very inexperienced for a World Cup!"});
+    else if(p.caps>40&&p.rating>80)msgs.push({cls:"fb-good",txt:"✓ Experienced and highly rated — solid choice."});
+    if(p.age>37)msgs.push({cls:"fb-warn",txt:"⚠️ Age "+p.age+" — could this be a risk over 90 minutes?"});
+  }
+  if(p.pos==="DEF"){
+    if(p.pace<56)msgs.push({cls:"fb-warn",txt:"⚠️ Pace "+p.pace+" — might struggle against fast forwards."});
+    else if(p.pace>82)msgs.push({cls:"fb-good",txt:"✓ Pace "+p.pace+" — great for a modern defender."});
+  }
+  if(p.pos==="FWD"&&p.goals<8)msgs.push({cls:"fb-warn",txt:"⚠️ Only "+p.goals+" international goals — low output for a forward."});
+  if(p.pace>90)msgs.push({cls:"fb-good",txt:"✓ Pace "+p.pace+" — electric pace!"});
+  if(p.rating<70)msgs.push({cls:"fb-bad",txt:"⚠️ Rating "+p.rating+" — is there a better option available?"});
+  else if(p.rating>=88)msgs.push({cls:"fb-good",txt:"✓ Rating "+p.rating+" — world class!"});
+  if(msgs.length===0)return`<div class="fb-good" style="margin-top:4px">✓ Decent pick.</div>`;
+  return msgs.map(m=>`<div class="${m.cls}" style="margin-top:4px">${m.txt}</div>`).join("");
+}
+
+// ─── MODEL XI REVEAL ─────────────────────────────────────────────────────────
+function showModelXI(){
+  const modelIdsByPos={GK:new Set(scotlandModel.GK),DEF:new Set(scotlandModel.DEF),MID:new Set(scotlandModel.MID),FWD:new Set(scotlandModel.FWD)};
+  const pupilByPos={
+    GK:[...practiceSquad.filter(p=>p.pos==="GK")].sort((a,b)=>b.rating-a.rating),
+    DEF:[...practiceSquad.filter(p=>p.pos==="DEF")].sort((a,b)=>b.rating-a.rating),
+    MID:[...practiceSquad.filter(p=>p.pos==="MID")].sort((a,b)=>b.rating-a.rating),
+    FWD:[...practiceSquad.filter(p=>p.pos==="FWD")].sort((a,b)=>b.rating-a.rating)
+  };
+  const modelSorted=[
+    ...scotlandModel.GK.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating),
+    ...scotlandModel.DEF.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating),
+    ...scotlandModel.MID.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating),
+    ...scotlandModel.FWD.map(id=>scotlandSquad.find(p=>p.id===id)).sort((a,b)=>b.rating-a.rating)
+  ];
+  let matches=0;
+  const thStyle="padding:8px 10px;border-bottom:2px solid var(--border);color:var(--text-muted);font-size:11px;font-weight:600;text-transform:uppercase;";
+  const tdStyle="padding:9px 10px;border-bottom:1px solid var(--border);";
+  let html=`<div class="card" style="padding:0;overflow:hidden;"><div style="padding:1rem 1.25rem .5rem;font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;">Data-suggested XI vs your XI</div>
+  <div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:13px;">
+  <thead><tr><th style="${thStyle}">Pos</th><th style="${thStyle}">Suggested pick</th><th style="${thStyle}">Rating</th><th style="${thStyle}">Your pick</th><th style="${thStyle}">Match?</th></tr></thead><tbody>`;
+  const queues={GK:[...pupilByPos.GK],DEF:[...pupilByPos.DEF],MID:[...pupilByPos.MID],FWD:[...pupilByPos.FWD]};
+  modelSorted.forEach(mp=>{
+    const yours=queues[mp.pos].shift()||null;
+    const matched=yours&&modelIdsByPos[mp.pos].has(yours.id);
+    if(matched)matches++;
+    html+=`<tr><td style="${tdStyle}"><span class="pos-badge pos-${mp.pos}">${mp.pos}</span></td>
+      <td style="${tdStyle};font-weight:600">${mp.name}</td>
+      <td style="${tdStyle}">⭐${mp.rating}</td>
+      <td style="${tdStyle}">${yours?yours.name:"—"}${yours&&!matched?` <span style="font-size:11px;color:var(--text-muted)">(⭐${yours.rating})</span>`:""}</td>
+      <td style="${tdStyle}"><span class="match-badge ${matched?"match-yes":"match-no"}">${matched?"✓ Match":"✗ Different"}</span></td></tr>`;
+  });
+  html+=`</tbody></table></div></div>`;
+  document.getElementById("modelComparison").innerHTML=html;
+  const pct=Math.round((matches/11)*100);
+  let verdict,cls;
+  if(pct>=80){verdict="Excellent data analysis! You picked almost exactly what the stats suggest.";cls="color:var(--green)";}
+  else if(pct>=50){verdict="Good effort — you agreed with the data on most positions. Look at where you differed and think about why.";cls="color:var(--gold)";}
+  else{verdict="Your picks were quite different from the data suggestions. Look at the table above — can you see why the data prefers different players?";cls="color:var(--red)";}
+  document.getElementById("practiceScore").innerHTML=`<div style="font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:700;${cls}">${matches}/11 matched</div><div style="font-size:14px;color:var(--text-muted);margin-top:.5rem">${verdict}</div>`;
+  goStep(2);
+}
+
 // ─── REAL SQUAD ───────────────────────────────────────────────────────────────
 function filterReal(pos,btn){realPosFilter=pos;document.querySelectorAll("#step4 .tab-btn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");renderRealTable();}
 function sortReal(col){if(realSortCol===col)realSortDir*=-1;else{realSortCol=col;realSortDir=-1;}renderRealTable();}
 function renderRealTable(){
-  let filtered=realPlayers.filter(p=>realPosFilter==="ALL"||p.pos===realPosFilter);
-  filtered.sort((a,b)=>(a[realSortCol]-b[realSortCol])*realSortDir);
+  let f=realPlayers.filter(p=>realPosFilter==="ALL"||p.pos===realPosFilter);
+  f.sort((a,b)=>(a[realSortCol]-b[realSortCol])*realSortDir);
   const pc={GK:0,DEF:0,MID:0,FWD:0};realSquad.forEach(p=>pc[p.pos]++);
-  document.getElementById("realBody").innerHTML=filtered.map(p=>{
+  document.getElementById("realBody").innerHTML=f.map(p=>{
     const inS=realSquad.find(s=>s.id===p.id);
-    const lim=!inS&&pc[p.pos]>=posLimits[p.pos];
-    const full=realSquad.length>=11&&!inS;
-    const dis=(lim||full)?" disabled":"";
-    const pcls=inS?" picked":"";
-    return`<tr><td><strong>${p.name}</strong></td><td style="color:var(--text-muted);font-size:12px">${p.role}</td><td><span class="pos-badge pos-${p.pos}">${p.pos}</span></td><td>${p.age}</td><td>${p.caps}</td><td>${p.goals}</td><td>${p.pace}</td><td><strong>${p.rating}</strong></td><td><button class="pick-btn${pcls}"${dis} onclick="toggleReal(${p.id})">${inS?"✓ In XI":"Pick"}</button></td></tr>`;
+    const dis=(!inS&&(pc[p.pos]>=posLimits[p.pos]||realSquad.length>=11))?" disabled":"";
+    return`<tr><td><strong>${p.name}</strong></td><td style="color:var(--text-muted);font-size:12px">${p.role}</td><td><span class="pos-badge pos-${p.pos}">${p.pos}</span></td><td>${p.age}</td><td>${p.caps}</td><td>${p.goals}</td><td>${p.pace}</td><td><strong>${p.rating}</strong></td><td><button class="pick-btn${inS?" picked":""}"${dis} onclick="toggleReal(${p.id})">${inS?"✓ In XI":"Pick"}</button></td></tr>`;
   }).join("");
 }
 function toggleReal(id){
   const p=realPlayers.find(x=>x.id===id);
   const idx=realSquad.findIndex(s=>s.id===id);
   if(idx>=0){realSquad.splice(idx,1);}
-  else{if(realSquad.length>=11)return;if(realSquad.filter(s=>s.pos===p.pos).length>=posLimits[p.pos])return;realSquad.push(p);}
+  else{if(realSquad.length>=11||realSquad.filter(s=>s.pos===p.pos).length>=posLimits[p.pos])return;realSquad.push(p);}
   renderRealTable();renderRealXI();updateRealCounter();
   document.getElementById("realNextBtn").disabled=realSquad.length<11;
 }
@@ -678,31 +669,26 @@ function renderRealXI(){
   const byPos={GK:[],DEF:[],MID:[],FWD:[]};realSquad.forEach(p=>byPos[p.pos].push(p));
   const rows=[{pos:"GK",n:1},{pos:"DEF",n:4},{pos:"MID",n:3},{pos:"FWD",n:3}];
   let html="";
-  rows.forEach(row=>{
-    for(let i=0;i<row.n;i++){
-      const p=byPos[row.pos][i];
-      if(p){
-        const fb=getPracticeFeedback(p);
-        html+=`<div class="xi-slot"><div class="slot-pos">${row.pos}</div><div class="slot-name">${p.name}</div><div class="slot-stats">⭐${p.rating} 💨${p.pace} ⚽${p.goals}</div>${fb}<button class="remove-btn" onclick="toggleReal(${p.id})">✕ Remove</button></div>`;
-      }else{html+=`<div class="xi-slot empty"><div class="slot-pos">${row.pos}</div><div class="slot-name" style="color:var(--text-muted);font-weight:400;font-size:12px">Empty slot</div></div>`;}
-    }
+  rows.forEach(r=>{for(let i=0;i<r.n;i++){const p=byPos[r.pos][i];
+    if(p){const fb=getFeedback(p);html+=`<div class="xi-slot"><div class="slot-pos">${r.pos}</div><div class="slot-name">${p.name}</div><div class="slot-stats">⭐${p.rating} 💨${p.pace} ⚽${p.goals}</div>${fb}<button class="remove-btn" onclick="toggleReal(${p.id})">✕ Remove</button></div>`;}
+    else{html+=`<div class="xi-slot empty"><div class="slot-pos">${r.pos}</div><div class="slot-name" style="color:var(--text-muted);font-weight:400;font-size:12px">Empty slot</div></div>`;}}
   });
   document.getElementById("realXiGrid").innerHTML=html;
 }
 function updateRealCounter(){
   const byPos={GK:0,DEF:0,MID:0,FWD:0};realSquad.forEach(p=>byPos[p.pos]++);
-  let html=`<div class="counter-chip${realSquad.length===11?" done":""}">Total: <strong>${realSquad.length}/11</strong></div>`;
-  Object.entries(posLimits).forEach(([pos,need])=>{const c=byPos[pos];html+=`<div class="counter-chip${c===need?" done":""}">${pos}: <strong>${c}/${need}</strong></div>`;});
-  document.getElementById("realCounter").innerHTML=html;
+  let h=`<div class="counter-chip${realSquad.length===11?" done":""}">Total: <strong>${realSquad.length}/11</strong></div>`;
+  Object.entries(posLimits).forEach(([pos,need])=>{const c=byPos[pos];h+=`<div class="counter-chip${c===need?" done":""}">${pos}: <strong>${c}/${need}</strong></div>`;});
+  document.getElementById("realCounter").innerHTML=h;
 }
 
 // ─── SQUAD STRENGTH ───────────────────────────────────────────────────────────
 function squadStrength(squad){
-  if(!squad||squad.length===0)return 0;
-  const avgRating=squad.reduce((a,p)=>a+p.rating,0)/squad.length;
-  const avgPace=squad.reduce((a,p)=>a+p.pace,0)/squad.length;
-  const totalGoals=squad.reduce((a,p)=>a+p.goals,0);
-  return avgRating*0.5+avgPace*0.3+(totalGoals/squad.length)*0.2;
+  if(!squad||!squad.length)return 0;
+  const r=squad.reduce((a,p)=>a+p.rating,0)/squad.length;
+  const pc=squad.reduce((a,p)=>a+p.pace,0)/squad.length;
+  const g=squad.reduce((a,p)=>a+p.goals,0)/squad.length;
+  return Math.round((r*.5+pc*.3+g*.2)*10)/10;
 }
 
 // ─── SAVE & LEADERBOARD ───────────────────────────────────────────────────────
@@ -710,39 +696,25 @@ async function saveSquad(){
   const name=document.getElementById("playerName").value.trim();
   if(!name){document.getElementById("saveStatus").innerHTML='<span style="color:var(--red)">Please enter your name first.</span>';return;}
   const n=nations.find(x=>x.name===currentNation);
-  const strength=squadStrength(realSquad);
-  const data={name,nation:currentNation,flag:n?n.flag:"",squad:realSquad,strength:Math.round(strength*10)/10,saved:Date.now()};
-  savedName=name;
-  savedKey="squad:"+name.replace(/\s+/g,"_").toLowerCase();
-  mySquadData=data;
+  const data={name,nation:currentNation,flag:n?n.flag:"",squad:realSquad,strength:squadStrength(realSquad),saved:Date.now()};
+  savedName=name;mySquadData=data;
   document.getElementById("saveStatus").innerHTML='<span style="color:var(--text-muted)">Saving...</span>';
   try{
-    await window.storage.set(savedKey,JSON.stringify(data),true);
-    document.getElementById("saveStatus").innerHTML='<span style="color:var(--green)">✓ Squad saved! Loading leaderboard...</span>';
+    const key="squad:"+name.replace(/\s+/g,"_").toLowerCase();
+    await window.storage.set(key,JSON.stringify(data),true);
+    document.getElementById("saveStatus").innerHTML='<span style="color:var(--green)">✓ Saved! Loading leaderboard...</span>';
     setTimeout(()=>{loadLeaderboard();goStep(7);},800);
-  }catch(e){
-    document.getElementById("saveStatus").innerHTML='<span style="color:var(--red)">Could not save — try again.</span>';
-  }
+  }catch(e){document.getElementById("saveStatus").innerHTML='<span style="color:var(--red)">Could not save — try again.</span>';}
 }
-
 async function loadLeaderboard(){
-  document.getElementById("leaderboardTable").innerHTML='<div style="color:var(--text-muted);font-size:13px">Loading squads...</div>';
+  document.getElementById("leaderboardTable").innerHTML='<div style="color:var(--text-muted);font-size:13px">Loading...</div>';
   try{
     const keys=await window.storage.list("squad:",true);
     const squads=[];
-    for(const key of(keys.keys||[])){
-      try{
-        const r=await window.storage.get(key,true);
-        if(r&&r.value){squads.push(JSON.parse(r.value));}
-      }catch(e){}
-    }
+    for(const key of(keys.keys||[])){try{const r=await window.storage.get(key,true);if(r?.value)squads.push(JSON.parse(r.value));}catch(e){}}
     squads.sort((a,b)=>b.strength-a.strength);
-    // My squad summary
-    if(mySquadData){
-      const n=nations.find(x=>x.name===mySquadData.nation);
-      document.getElementById("mySquadSummary").innerHTML=`<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;"><div style="font-size:32px">${mySquadData.flag}</div><div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;">Your squad: ${mySquadData.name} — ${mySquadData.nation}</div><div style="font-size:13px;color:var(--text-muted)">Squad strength: <strong>${mySquadData.strength}</strong></div></div></div>`;
-    }
-    if(squads.length===0){document.getElementById("leaderboardTable").innerHTML='<div class="info-box">No squads saved yet — be the first!</div>';return;}
+    if(mySquadData){document.getElementById("mySquadSummary").innerHTML=`<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;"><div style="font-size:32px">${mySquadData.flag}</div><div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;">Your squad: ${mySquadData.name} — ${mySquadData.nation}</div><div style="font-size:13px;color:var(--text-muted)">Squad strength: <strong>${mySquadData.strength}</strong></div></div></div>`;}
+    if(!squads.length){document.getElementById("leaderboardTable").innerHTML='<div class="info-box">No squads saved yet — be the first!</div>';return;}
     let html=`<div class="card" style="padding:0;overflow:hidden;"><table class="lb-table"><thead><tr><th>#</th><th>Manager</th><th>Nation</th><th>Strength</th><th>Challenge</th></tr></thead><tbody>`;
     squads.forEach((s,i)=>{
       const medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
@@ -751,66 +723,51 @@ async function loadLeaderboard(){
     });
     html+=`</tbody></table></div>`;
     document.getElementById("leaderboardTable").innerHTML=html;
-  }catch(e){
-    document.getElementById("leaderboardTable").innerHTML='<div class="warn-box">Could not load leaderboard. Please refresh.</div>';
-  }
+  }catch(e){document.getElementById("leaderboardTable").innerHTML='<div class="warn-box">Could not load leaderboard. Please refresh.</div>';}
 }
 
-// ─── MATCH SIMULATION ─────────────────────────────────────────────────────────
-async function startMatch(opponentName){
-  const key="squad:"+opponentName.replace(/\s+/g,"_").toLowerCase();
+// ─── MATCH SIM ────────────────────────────────────────────────────────────────
+async function startMatch(oppName){
+  const key="squad:"+oppName.replace(/\s+/g,"_").toLowerCase();
   let opp;
-  try{const r=await window.storage.get(key,true);if(r&&r.value)opp=JSON.parse(r.value);}catch(e){}
+  try{const r=await window.storage.get(key,true);if(r?.value)opp=JSON.parse(r.value);}catch(e){}
   if(!opp){alert("Could not load opponent squad.");return;}
   const myN=nations.find(x=>x.name===currentNation);
   document.getElementById("matchTitle").textContent=`⚽ ${mySquadData.flag} ${currentNation} vs ${opp.flag} ${opp.nation}`;
   document.getElementById("matchContent").innerHTML=runMatchSim(mySquadData,opp);
   goStep(8);
 }
-
 function runMatchSim(home,away){
-  const hStr=home.strength;const aStr=away.strength;
-  const total=hStr+aStr;
-  // generate goals — weighted random
-  const avgGoals=2.5;
-  const hExpected=(hStr/total)*avgGoals*1.1; // slight home advantage
-  const aExpected=(aStr/total)*avgGoals;
-  let hGoals=0,aGoals=0;
-  for(let i=0;i<5;i++){if(Math.random()<hExpected/5)hGoals++;}
-  for(let i=0;i<5;i++){if(Math.random()<aExpected/5)aGoals++;}
-  // generate match events
-  const events=[];
-  const hScorers=home.squad.filter(p=>p.pos==="FWD"||p.pos==="MID").sort((a,b)=>b.goals-a.goals);
-  const aScorers=away.squad.filter(p=>p.pos==="FWD"||p.pos==="MID").sort((a,b)=>b.goals-a.goals);
-  const usedMins=new Set();
-  function randMin(){let m;do{m=rnd(1,90);}while(usedMins.has(m));usedMins.add(m);return m;}
-  for(let i=0;i<hGoals;i++){const scorer=hScorers[i%hScorers.length]||home.squad[0];events.push({min:randMin(),team:"home",text:`⚽ GOAL! ${scorer.name} (${home.nation})`});}
-  for(let i=0;i<aGoals;i++){const scorer=aScorers[i%aScorers.length]||away.squad[0];events.push({min:randMin(),team:"away",text:`⚽ GOAL! ${scorer.name} (${away.nation})`});}
+  const hStr=home.strength,aStr=away.strength,tot=hStr+aStr;
+  const hExp=(hStr/tot)*2.6;const aExp=(aStr/tot)*2.4;
+  let hG=0,aG=0;
+  for(let i=0;i<6;i++){if(Math.random()<hExp/6)hG++;}
+  for(let i=0;i<6;i++){if(Math.random()<aExp/6)aG++;}
+  const events=[];const used=new Set();
+  function rm(){let m;do{m=rnd(1,90);}while(used.has(m));used.add(m);return m;}
+  const hS=home.squad.filter(p=>p.pos==="FWD"||p.pos==="MID").sort((a,b)=>b.goals-a.goals);
+  const aS=away.squad.filter(p=>p.pos==="FWD"||p.pos==="MID").sort((a,b)=>b.goals-a.goals);
+  for(let i=0;i<hG;i++){const s=hS[i%hS.length]||home.squad[0];events.push({min:rm(),txt:`⚽ GOAL! ${s.name} (${home.nation})`});}
+  for(let i=0;i<aG;i++){const s=aS[i%aS.length]||away.squad[0];events.push({min:rm(),txt:`⚽ GOAL! ${s.name} (${away.nation})`});}
+  const all=[...home.squad,...away.squad];
+  for(let i=0;i<rnd(1,4);i++){events.push({min:rm(),txt:`🟨 Yellow card — ${all[rnd(0,all.length-1)].name}`});}
   events.sort((a,b)=>a.min-b.min);
-  // yellow cards
-  const yc=rnd(1,4);for(let i=0;i<yc;i++){const all=[...home.squad,...away.squad];const p=all[rnd(0,all.length-1)];events.push({min:randMin(),team:"card",text:`🟨 Yellow card — ${p.name}`});}
-  events.sort((a,b)=>a.min-b.min);
-  let resultText="",resultCls="";
-  if(hGoals>aGoals){resultText=`${home.name}'s ${home.nation} WIN!`;resultCls="result-win";}
-  else if(aGoals>hGoals){resultText=`${away.name}'s ${away.nation} WIN!`;resultCls="result-win";}
-  else{resultText="It's a DRAW!";resultCls="result-draw";}
-  let html=`<div class="match-screen">
+  let resultTxt,cls;
+  if(hG>aG){resultTxt=`${home.name}'s ${home.nation} WIN! 🎉`;cls="result-win";}
+  else if(aG>hG){resultTxt=`${away.name}'s ${away.nation} WIN! 🎉`;cls="result-win";}
+  else{resultTxt="It's a DRAW! 🤝";cls="result-draw";}
+  return`<div class="match-screen">
     <div style="display:flex;justify-content:space-around;align-items:center;gap:1rem;flex-wrap:wrap;">
-      <div><div style="font-size:28px">${home.flag}</div><div class="match-team">${home.nation}</div><div style="font-size:12px;color:var(--text-muted)">${home.name}</div></div>
-      <div class="match-scoreline">${hGoals} — ${aGoals}</div>
-      <div><div style="font-size:28px">${away.flag}</div><div class="match-team">${away.nation}</div><div style="font-size:12px;color:var(--text-muted)">${away.name}</div></div>
+      <div><div style="font-size:32px">${home.flag}</div><div class="match-team">${home.nation}</div><div style="font-size:12px;color:var(--text-muted)">${home.name}</div></div>
+      <div class="match-scoreline">${hG} — ${aG}</div>
+      <div><div style="font-size:32px">${away.flag}</div><div class="match-team">${away.nation}</div><div style="font-size:12px;color:var(--text-muted)">${away.name}</div></div>
     </div>
-    <div style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;margin:1rem 0;" class="${resultCls}">${resultText}</div>
-    <div style="font-size:12px;color:var(--text-muted);margin-bottom:1rem">Squad strength: ${home.nation} ${hStr.toFixed(1)} vs ${away.nation} ${aStr.toFixed(1)}</div>
+    <div style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;margin:1rem 0" class="${cls}">${resultTxt}</div>
+    <div style="font-size:12px;color:var(--text-muted);margin-bottom:1rem">Squad strength: ${home.nation} ${hStr} vs ${away.nation} ${aStr}</div>
   </div>
-  <div class="card"><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;margin-bottom:.75rem">Match events</div>`;
-  events.forEach(e=>{html+=`<div class="match-event"><span style="color:var(--text-muted);min-width:40px;display:inline-block">${e.min}'</span> ${e.text}</div>`;});
-  html+=`</div><div class="info-box"><strong>How was the result decided?</strong> The simulation uses each squad's <strong>strength score</strong> — calculated from average rating (50%), average pace (30%), and goals per player (20%). A stronger squad has a higher chance of scoring, but there's always some randomness — just like real football!</div>`;
-  return html;
+  <div class="card"><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;margin-bottom:.75rem">Match events</div>${events.map(e=>`<div class="match-event"><span style="color:var(--text-muted);min-width:40px;display:inline-block">${e.min}'</span> ${e.txt}</div>`).join("")}</div>
+  <div class="info-box"><strong>How was the result decided?</strong> The simulation uses each squad's <strong>strength score</strong> — calculated from average rating (50%), average pace (30%), and goals per player (20%). A stronger squad has a higher chance of scoring, but there's always some randomness — just like real football!</div>`;
 }
-
-// ─── SAVE STEP ENTRY ──────────────────────────────────────────────────────────
-function goToSave(){goStep(6);}
 
 // ─── SUMMARY ─────────────────────────────────────────────────────────────────
 function showSummary(){
@@ -818,20 +775,19 @@ function showSummary(){
   const byPos={GK:[],DEF:[],MID:[],FWD:[]};realSquad.forEach(p=>byPos[p.pos].push(p));
   let html=`<div class="summary-card"><h3>${n?n.flag:""} ${currentNation} — Starting XI</h3>`;
   ["GK","DEF","MID","FWD"].forEach(pos=>{byPos[pos].forEach(p=>{html+=`<div class="player-row"><span><span class="pos-badge pos-${pos}">${pos}</span> &nbsp;<strong>${p.name}</strong> <span style="font-size:12px;color:var(--text-muted)">(${p.role})</span></span><span style="color:var(--text-muted);font-size:13px">⭐${p.rating} 💨${p.pace} ⚽${p.goals} · ${p.caps} caps</span></div>`;});});
-  html+=`</div>`;
+  html+="</div>";
   const qs=[{id:"q1",label:"Q1 — Most useful stat"},{id:"q2",label:"Q2 — Goalkeeper choice"},{id:"q3",label:"Q3 — Rating and multiple stats"},{id:"q4",label:"Q4 — Difficult choices"},{id:"q5",label:"Extension — Extra stat idea"}];
   let any=false;
-  qs.forEach(q=>{const val=document.getElementById(q.id).value.trim();if(val){if(!any){html+=`<div class="summary-card"><h3>Written answers</h3>`;any=true;}html+=`<div class="q-answer"><div class="qlabel">${q.label}</div><div class="qtext">${val}</div></div>`;}});
+  qs.forEach(q=>{const v=document.getElementById(q.id).value.trim();if(v){if(!any){html+=`<div class="summary-card"><h3>Written answers</h3>`;any=true;}html+=`<div class="q-answer"><div class="qlabel">${q.label}</div><div class="qtext">${v}</div></div>`;}});
   if(any)html+="</div>";
   document.getElementById("summaryContent").innerHTML=html;
   goStep(9);
 }
-
 function toggleHint(id){const el=document.getElementById(id);el.classList.toggle("visible");el.previousElementSibling.textContent=el.classList.contains("visible")?"💡 Hide hint":"💡 Need a hint?";}
 function restart(){currentNation="";realSquad=[];practiceSquad=[];["q1","q2","q3","q4","q5"].forEach(id=>document.getElementById(id).value="");goStep(0);}
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
-renderNations(nations);
+renderNations();
 renderPracticeTable();
 renderPracticeXI();
 updatePracticeCounter();

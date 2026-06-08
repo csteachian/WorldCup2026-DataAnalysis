@@ -1,0 +1,2426 @@
+{
+  "England": [
+    {
+      "name": "Jordan Pickford",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 31,
+      "caps": 72,
+      "goals": 0,
+      "pace": 56,
+      "rating": 85
+    },
+    {
+      "name": "Dean Henderson",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 28,
+      "caps": 5,
+      "goals": 0,
+      "pace": 54,
+      "rating": 78
+    },
+    {
+      "name": "James Trafford",
+      "pos": "GK",
+      "role": "Young keeper",
+      "age": 22,
+      "caps": 3,
+      "goals": 0,
+      "pace": 58,
+      "rating": 72
+    },
+    {
+      "name": "Trent Alexander-Arnold",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 26,
+      "caps": 36,
+      "goals": 4,
+      "pace": 78,
+      "rating": 88
+    },
+    {
+      "name": "Luke Shaw",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 29,
+      "caps": 34,
+      "goals": 1,
+      "pace": 74,
+      "rating": 82
+    },
+    {
+      "name": "John Stones",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 31,
+      "caps": 77,
+      "goals": 5,
+      "pace": 60,
+      "rating": 84
+    },
+    {
+      "name": "Harry Maguire",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 31,
+      "caps": 64,
+      "goals": 7,
+      "pace": 58,
+      "rating": 80
+    },
+    {
+      "name": "Marc Guehi",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 24,
+      "caps": 22,
+      "goals": 1,
+      "pace": 65,
+      "rating": 82
+    },
+    {
+      "name": "Reece James",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 25,
+      "caps": 24,
+      "goals": 2,
+      "pace": 80,
+      "rating": 84
+    },
+    {
+      "name": "Declan Rice",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 26,
+      "caps": 54,
+      "goals": 7,
+      "pace": 72,
+      "rating": 88
+    },
+    {
+      "name": "Jude Bellingham",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 21,
+      "caps": 40,
+      "goals": 14,
+      "pace": 78,
+      "rating": 92
+    },
+    {
+      "name": "Phil Foden",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 24,
+      "caps": 38,
+      "goals": 12,
+      "pace": 80,
+      "rating": 90
+    },
+    {
+      "name": "Bukayo Saka",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 23,
+      "caps": 44,
+      "goals": 18,
+      "pace": 87,
+      "rating": 89
+    },
+    {
+      "name": "Jack Grealish",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 29,
+      "caps": 37,
+      "goals": 5,
+      "pace": 74,
+      "rating": 82
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 19,
+      "caps": 10,
+      "goals": 1,
+      "pace": 68,
+      "rating": 80
+    },
+    {
+      "name": "Harry Kane",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 31,
+      "caps": 96,
+      "goals": 68,
+      "pace": 68,
+      "rating": 91
+    },
+    {
+      "name": "Ollie Watkins",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 29,
+      "caps": 28,
+      "goals": 12,
+      "pace": 83,
+      "rating": 84
+    },
+    {
+      "name": "Cole Palmer",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 22,
+      "caps": 16,
+      "goals": 8,
+      "pace": 76,
+      "rating": 86
+    },
+    {
+      "name": "Anthony Gordon",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 23,
+      "caps": 12,
+      "goals": 4,
+      "pace": 85,
+      "rating": 80
+    },
+    {
+      "name": "Jarrod Bowen",
+      "pos": "FWD",
+      "role": "False 9",
+      "age": 28,
+      "caps": 20,
+      "goals": 8,
+      "pace": 82,
+      "rating": 80
+    }
+  ],
+  "France": [
+    {
+      "name": "Mike Maignan",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 29,
+      "caps": 28,
+      "goals": 0,
+      "pace": 58,
+      "rating": 88
+    },
+    {
+      "name": "Brice Samba",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 30,
+      "caps": 10,
+      "goals": 0,
+      "pace": 54,
+      "rating": 78
+    },
+    {
+      "name": "Gautier Larsonneur",
+      "pos": "GK",
+      "role": "Young keeper",
+      "age": 27,
+      "caps": 2,
+      "goals": 0,
+      "pace": 56,
+      "rating": 72
+    },
+    {
+      "name": "Theo Hernandez",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 27,
+      "caps": 30,
+      "goals": 4,
+      "pace": 88,
+      "rating": 87
+    },
+    {
+      "name": "Jules Koundé",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 26,
+      "caps": 36,
+      "goals": 2,
+      "pace": 80,
+      "rating": 86
+    },
+    {
+      "name": "Dayot Upamecano",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 26,
+      "caps": 28,
+      "goals": 1,
+      "pace": 80,
+      "rating": 84
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 25,
+      "caps": 18,
+      "goals": 1,
+      "pace": 82,
+      "rating": 84
+    },
+    {
+      "name": "William Saliba",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 23,
+      "caps": 20,
+      "goals": 1,
+      "pace": 78,
+      "rating": 86
+    },
+    {
+      "name": "Benjamin Pavard",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 28,
+      "caps": 57,
+      "goals": 7,
+      "pace": 74,
+      "rating": 83
+    },
+    {
+      "name": "N'Golo Kanté",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 33,
+      "caps": 53,
+      "goals": 2,
+      "pace": 72,
+      "rating": 84
+    },
+    {
+      "name": "Aurélien Tchouaméni",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 24,
+      "caps": 32,
+      "goals": 3,
+      "pace": 74,
+      "rating": 86
+    },
+    {
+      "name": "Antoine Griezmann",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 33,
+      "caps": 126,
+      "goals": 44,
+      "pace": 76,
+      "rating": 87
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 27,
+      "caps": 55,
+      "goals": 9,
+      "pace": 93,
+      "rating": 87
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 18,
+      "caps": 8,
+      "goals": 1,
+      "pace": 76,
+      "rating": 80
+    },
+    {
+      "name": "Adrien Rabiot",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 30,
+      "caps": 48,
+      "goals": 11,
+      "pace": 72,
+      "rating": 82
+    },
+    {
+      "name": "Kylian Mbappé",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 26,
+      "caps": 78,
+      "goals": 48,
+      "pace": 97,
+      "rating": 95
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 26,
+      "caps": 23,
+      "goals": 8,
+      "pace": 86,
+      "rating": 83
+    },
+    {
+      "name": "Marcus Thuram",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 27,
+      "caps": 28,
+      "goals": 10,
+      "pace": 84,
+      "rating": 84
+    },
+    {
+      "name": "Kingsley Coman",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 28,
+      "caps": 53,
+      "goals": 14,
+      "pace": 90,
+      "rating": 84
+    },
+    {
+      "name": "Bradley Barcola",
+      "pos": "FWD",
+      "role": "False 9",
+      "age": 22,
+      "caps": 10,
+      "goals": 4,
+      "pace": 88,
+      "rating": 82
+    }
+  ],
+  "Spain": [
+    {
+      "name": "Unai Simón",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 27,
+      "caps": 30,
+      "goals": 0,
+      "pace": 56,
+      "rating": 83
+    },
+    {
+      "name": "David Raya",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 29,
+      "caps": 12,
+      "goals": 0,
+      "pace": 54,
+      "rating": 82
+    },
+    {
+      "name": "Álex Remiro",
+      "pos": "GK",
+      "role": "Third keeper",
+      "age": 29,
+      "caps": 6,
+      "goals": 0,
+      "pace": 52,
+      "rating": 78
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 29,
+      "caps": 14,
+      "goals": 3,
+      "pace": 84,
+      "rating": 85
+    },
+    {
+      "name": "Dani Carvajal",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 32,
+      "caps": 76,
+      "goals": 3,
+      "pace": 76,
+      "rating": 84
+    },
+    {
+      "name": "Aymeric Laporte",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 30,
+      "caps": 42,
+      "goals": 4,
+      "pace": 64,
+      "rating": 83
+    },
+    {
+      "name": "Robin Le Normand",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 27,
+      "caps": 12,
+      "goals": 1,
+      "pace": 70,
+      "rating": 82
+    },
+    {
+      "name": "Pau Cubarsí",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 17,
+      "caps": 6,
+      "goals": 0,
+      "pace": 72,
+      "rating": 80
+    },
+    {
+      "name": "Joselu",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 34,
+      "caps": 20,
+      "goals": 8,
+      "pace": 66,
+      "rating": 76
+    },
+    {
+      "name": "Rodri",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 28,
+      "caps": 52,
+      "goals": 10,
+      "pace": 70,
+      "rating": 91
+    },
+    {
+      "name": "Pedri",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 22,
+      "caps": 32,
+      "goals": 4,
+      "pace": 74,
+      "rating": 88
+    },
+    {
+      "name": "Fabián Ruiz",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 28,
+      "caps": 30,
+      "goals": 6,
+      "pace": 72,
+      "rating": 85
+    },
+    {
+      "name": "Lamine Yamal",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 17,
+      "caps": 20,
+      "goals": 6,
+      "pace": 90,
+      "rating": 88
+    },
+    {
+      "name": "Nico Williams",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 22,
+      "caps": 20,
+      "goals": 6,
+      "pace": 92,
+      "rating": 86
+    },
+    {
+      "name": "Dani Olmo",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 26,
+      "caps": 34,
+      "goals": 12,
+      "pace": 78,
+      "rating": 86
+    },
+    {
+      "name": "Álvaro Morata",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 32,
+      "caps": 74,
+      "goals": 35,
+      "pace": 76,
+      "rating": 82
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 27,
+      "caps": 34,
+      "goals": 12,
+      "pace": 76,
+      "rating": 83
+    },
+    {
+      "name": "Ferran Torres",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 24,
+      "caps": 40,
+      "goals": 18,
+      "pace": 84,
+      "rating": 80
+    },
+    {
+      "name": "Gavi",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 20,
+      "caps": 40,
+      "goals": 5,
+      "pace": 72,
+      "rating": 86
+    },
+    {
+      "name": "Joselu",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 34,
+      "caps": 18,
+      "goals": 8,
+      "pace": 64,
+      "rating": 76
+    }
+  ],
+  "Argentina": [
+    {
+      "name": "Emiliano Martínez",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 32,
+      "caps": 36,
+      "goals": 0,
+      "pace": 52,
+      "rating": 88
+    },
+    {
+      "name": "Gerónimo Rulli",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 32,
+      "caps": 12,
+      "goals": 0,
+      "pace": 50,
+      "rating": 78
+    },
+    {
+      "name": "Franco Armani",
+      "pos": "GK",
+      "role": "Third keeper",
+      "age": 38,
+      "caps": 18,
+      "goals": 0,
+      "pace": 44,
+      "rating": 74
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 32,
+      "caps": 68,
+      "goals": 4,
+      "pace": 74,
+      "rating": 82
+    },
+    {
+      "name": "Nahuel Molina",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 26,
+      "caps": 32,
+      "goals": 6,
+      "pace": 84,
+      "rating": 84
+    },
+    {
+      "name": "Cristian Romero",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 26,
+      "caps": 30,
+      "goals": 2,
+      "pace": 76,
+      "rating": 86
+    },
+    {
+      "name": "Lisandro Martínez",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 26,
+      "caps": 24,
+      "goals": 2,
+      "pace": 70,
+      "rating": 85
+    },
+    {
+      "name": "Germán Pezzella",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 33,
+      "caps": 40,
+      "goals": 4,
+      "pace": 60,
+      "rating": 76
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 27,
+      "caps": 28,
+      "goals": 2,
+      "pace": 80,
+      "rating": 80
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 30,
+      "caps": 58,
+      "goals": 10,
+      "pace": 74,
+      "rating": 86
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 25,
+      "caps": 30,
+      "goals": 8,
+      "pace": 72,
+      "rating": 86
+    },
+    {
+      "name": "Enzo Fernández",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 23,
+      "caps": 28,
+      "goals": 6,
+      "pace": 74,
+      "rating": 84
+    },
+    {
+      "name": "Nicolás González",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 26,
+      "caps": 24,
+      "goals": 8,
+      "pace": 84,
+      "rating": 82
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 20,
+      "caps": 18,
+      "goals": 6,
+      "pace": 88,
+      "rating": 82
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 28,
+      "caps": 42,
+      "goals": 8,
+      "pace": 72,
+      "rating": 82
+    },
+    {
+      "name": "Lionel Messi",
+      "pos": "FWD",
+      "role": "False 9",
+      "age": 37,
+      "caps": 189,
+      "goals": 109,
+      "pace": 72,
+      "rating": 93
+    },
+    {
+      "name": "Lautaro Martínez",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 26,
+      "caps": 54,
+      "goals": 30,
+      "pace": 76,
+      "rating": 88
+    },
+    {
+      "name": "Julián Álvarez",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 24,
+      "caps": 36,
+      "goals": 22,
+      "pace": 78,
+      "rating": 86
+    },
+    {
+      "name": "Ángel Di María",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 36,
+      "caps": 137,
+      "goals": 32,
+      "pace": 82,
+      "rating": 82
+    },
+    {
+      "name": "Paulo Dybala",
+      "pos": "FWD",
+      "role": "Attacking fwd",
+      "age": 31,
+      "caps": 36,
+      "goals": 30,
+      "pace": 76,
+      "rating": 84
+    }
+  ],
+  "Brazil": [
+    {
+      "name": "Alisson",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 32,
+      "caps": 72,
+      "goals": 0,
+      "pace": 62,
+      "rating": 90
+    },
+    {
+      "name": "Ederson",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 31,
+      "caps": 30,
+      "goals": 0,
+      "pace": 72,
+      "rating": 86
+    },
+    {
+      "name": "Weverton",
+      "pos": "GK",
+      "role": "Third keeper",
+      "age": 36,
+      "caps": 20,
+      "goals": 0,
+      "pace": 58,
+      "rating": 78
+    },
+    {
+      "name": "Marquinhos",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 30,
+      "caps": 82,
+      "goals": 8,
+      "pace": 72,
+      "rating": 87
+    },
+    {
+      "name": "Éder Militão",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 26,
+      "caps": 40,
+      "goals": 4,
+      "pace": 76,
+      "rating": 86
+    },
+    {
+      "name": "Danilo",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 33,
+      "caps": 54,
+      "goals": 8,
+      "pace": 74,
+      "rating": 82
+    },
+    {
+      "name": "Alex Sandro",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 33,
+      "caps": 42,
+      "goals": 4,
+      "pace": 74,
+      "rating": 78
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 26,
+      "caps": 18,
+      "goals": 4,
+      "pace": 68,
+      "rating": 84
+    },
+    {
+      "name": "Vanderson",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 23,
+      "caps": 10,
+      "goals": 1,
+      "pace": 88,
+      "rating": 78
+    },
+    {
+      "name": "Casemiro",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 33,
+      "caps": 74,
+      "goals": 16,
+      "pace": 66,
+      "rating": 84
+    },
+    {
+      "name": "Lucas Paquetá",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 27,
+      "caps": 50,
+      "goals": 12,
+      "pace": 76,
+      "rating": 86
+    },
+    {
+      "name": "Bruno Guimarães",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 27,
+      "caps": 30,
+      "goals": 6,
+      "pace": 72,
+      "rating": 86
+    },
+    {
+      "name": "Raphinha",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 28,
+      "caps": 36,
+      "goals": 16,
+      "pace": 86,
+      "rating": 86
+    },
+    {
+      "name": "Rodrygo",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 23,
+      "caps": 28,
+      "goals": 12,
+      "pace": 88,
+      "rating": 86
+    },
+    {
+      "name": "Gerson",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 27,
+      "caps": 16,
+      "goals": 2,
+      "pace": 68,
+      "rating": 80
+    },
+    {
+      "name": "Vinícius Jr.",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 24,
+      "caps": 32,
+      "goals": 18,
+      "pace": 96,
+      "rating": 92
+    },
+    {
+      "name": "Richarlison",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 27,
+      "caps": 50,
+      "goals": 24,
+      "pace": 82,
+      "rating": 84
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 23,
+      "caps": 24,
+      "goals": 10,
+      "pace": 90,
+      "rating": 84
+    },
+    {
+      "name": "Endrick",
+      "pos": "FWD",
+      "role": "Young striker",
+      "age": 18,
+      "caps": 12,
+      "goals": 6,
+      "pace": 84,
+      "rating": 80
+    },
+    {
+      "name": "Gabriel Jesus",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 27,
+      "caps": 64,
+      "goals": 20,
+      "pace": 82,
+      "rating": 82
+    }
+  ],
+  "Germany": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 39,
+      "caps": 122,
+      "goals": 0,
+      "pace": 50,
+      "rating": 84
+    },
+    {
+      "name": "Marc-André ter Stegen",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 32,
+      "caps": 40,
+      "goals": 0,
+      "pace": 56,
+      "rating": 86
+    },
+    {
+      "name": "Alexander Nübel",
+      "pos": "GK",
+      "role": "Young keeper",
+      "age": 28,
+      "caps": 6,
+      "goals": 0,
+      "pace": 58,
+      "rating": 78
+    },
+    {
+      "name": "Antonio Rüdiger",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 31,
+      "caps": 72,
+      "goals": 6,
+      "pace": 80,
+      "rating": 87
+    },
+    {
+      "name": "Niklas Süle",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 29,
+      "caps": 48,
+      "goals": 2,
+      "pace": 70,
+      "rating": 82
+    },
+    {
+      "name": "David Raum",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 26,
+      "caps": 22,
+      "goals": 4,
+      "pace": 82,
+      "rating": 82
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 29,
+      "caps": 88,
+      "goals": 8,
+      "pace": 72,
+      "rating": 88
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 25,
+      "caps": 14,
+      "goals": 1,
+      "pace": 72,
+      "rating": 80
+    },
+    {
+      "name": "Benjamin Henrichs",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 27,
+      "caps": 20,
+      "goals": 2,
+      "pace": 80,
+      "rating": 78
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 35,
+      "caps": 111,
+      "goals": 17,
+      "pace": 60,
+      "rating": 86
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 21,
+      "caps": 20,
+      "goals": 8,
+      "pace": 82,
+      "rating": 88
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 25,
+      "caps": 50,
+      "goals": 18,
+      "pace": 76,
+      "rating": 84
+    },
+    {
+      "name": "Leroy Sané",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 29,
+      "caps": 60,
+      "goals": 16,
+      "pace": 92,
+      "rating": 86
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 21,
+      "caps": 30,
+      "goals": 10,
+      "pace": 84,
+      "rating": 88
+    },
+    {
+      "name": "Leon Goretzka",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 29,
+      "caps": 58,
+      "goals": 20,
+      "pace": 72,
+      "rating": 83
+    },
+    {
+      "name": "Niclas Füllkrug",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 31,
+      "caps": 20,
+      "goals": 12,
+      "pace": 68,
+      "rating": 82
+    },
+    {
+      "name": "Thomas Müller",
+      "pos": "FWD",
+      "role": "False 9",
+      "age": 35,
+      "caps": 131,
+      "goals": 45,
+      "pace": 68,
+      "rating": 82
+    },
+    {
+      "name": "Serge Gnabry",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 29,
+      "caps": 44,
+      "goals": 22,
+      "pace": 88,
+      "rating": 83
+    },
+    {
+      "name": "Tim Kleindienst",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 29,
+      "caps": 8,
+      "goals": 4,
+      "pace": 76,
+      "rating": 78
+    },
+    {
+      "name": "Deniz Undav",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 28,
+      "caps": 10,
+      "goals": 4,
+      "pace": 80,
+      "rating": 78
+    }
+  ],
+  "Portugal": [
+    {
+      "name": "Diogo Costa",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 25,
+      "caps": 20,
+      "goals": 0,
+      "pace": 62,
+      "rating": 84
+    },
+    {
+      "name": "José Sá",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 31,
+      "caps": 10,
+      "goals": 0,
+      "pace": 58,
+      "rating": 80
+    },
+    {
+      "name": "Rui Patrício",
+      "pos": "GK",
+      "role": "Third keeper",
+      "age": 36,
+      "caps": 104,
+      "goals": 0,
+      "pace": 54,
+      "rating": 78
+    },
+    {
+      "name": "Nuno Mendes",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 22,
+      "caps": 24,
+      "goals": 2,
+      "pace": 88,
+      "rating": 84
+    },
+    {
+      "name": "Diogo Dalot",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 25,
+      "caps": 28,
+      "goals": 2,
+      "pace": 82,
+      "rating": 82
+    },
+    {
+      "name": "Rúben Dias",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 27,
+      "caps": 58,
+      "goals": 4,
+      "pace": 72,
+      "rating": 88
+    },
+    {
+      "name": "Pepe",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 41,
+      "caps": 141,
+      "goals": 8,
+      "pace": 52,
+      "rating": 76
+    },
+    {
+      "name": "António Silva",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 21,
+      "caps": 16,
+      "goals": 1,
+      "pace": 74,
+      "rating": 80
+    },
+    {
+      "name": "João Cancelo",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 30,
+      "caps": 56,
+      "goals": 4,
+      "pace": 82,
+      "rating": 86
+    },
+    {
+      "name": "Vitinha",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 24,
+      "caps": 24,
+      "goals": 2,
+      "pace": 74,
+      "rating": 84
+    },
+    {
+      "name": "Bernardo Silva",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 30,
+      "caps": 86,
+      "goals": 18,
+      "pace": 80,
+      "rating": 88
+    },
+    {
+      "name": "Bruno Fernandes",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 30,
+      "caps": 86,
+      "goals": 26,
+      "pace": 72,
+      "rating": 88
+    },
+    {
+      "name": "Pedro Neto",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 24,
+      "caps": 24,
+      "goals": 4,
+      "pace": 92,
+      "rating": 83
+    },
+    {
+      "name": "Rafael Leão",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 25,
+      "caps": 22,
+      "goals": 6,
+      "pace": 93,
+      "rating": 85
+    },
+    {
+      "name": "João Palhinha",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 29,
+      "caps": 30,
+      "goals": 2,
+      "pace": 68,
+      "rating": 83
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 40,
+      "caps": 212,
+      "goals": 130,
+      "pace": 68,
+      "rating": 86
+    },
+    {
+      "name": "Gonçalo Ramos",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 23,
+      "caps": 20,
+      "goals": 14,
+      "pace": 76,
+      "rating": 83
+    },
+    {
+      "name": "João Félix",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 24,
+      "caps": 42,
+      "goals": 12,
+      "pace": 82,
+      "rating": 84
+    },
+    {
+      "name": "Francisco Conceição",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 22,
+      "caps": 12,
+      "goals": 4,
+      "pace": 88,
+      "rating": 80
+    },
+    {
+      "name": "Rafa Silva",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 31,
+      "caps": 30,
+      "goals": 8,
+      "pace": 84,
+      "rating": 79
+    }
+  ],
+  "Netherlands": [
+    {
+      "name": "Bart Verbruggen",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 22,
+      "caps": 12,
+      "goals": 0,
+      "pace": 60,
+      "rating": 80
+    },
+    {
+      "name": "Mark Flekken",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 31,
+      "caps": 10,
+      "goals": 0,
+      "pace": 54,
+      "rating": 78
+    },
+    {
+      "name": "Remko Pasveer",
+      "pos": "GK",
+      "role": "Third keeper",
+      "age": 40,
+      "caps": 4,
+      "goals": 0,
+      "pace": 48,
+      "rating": 74
+    },
+    {
+      "name": "Virgil van Dijk",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 33,
+      "caps": 68,
+      "goals": 8,
+      "pace": 76,
+      "rating": 88
+    },
+    {
+      "name": "Matthijs de Ligt",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 25,
+      "caps": 48,
+      "goals": 4,
+      "pace": 74,
+      "rating": 85
+    },
+    {
+      "name": "Denzel Dumfries",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 28,
+      "caps": 50,
+      "goals": 8,
+      "pace": 86,
+      "rating": 83
+    },
+    {
+      "name": "Jurriën Timber",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 23,
+      "caps": 20,
+      "goals": 2,
+      "pace": 78,
+      "rating": 82
+    },
+    {
+      "name": "Nathan Aké",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 30,
+      "caps": 38,
+      "goals": 4,
+      "pace": 72,
+      "rating": 82
+    },
+    {
+      "name": "Daley Blind",
+      "pos": "DEF",
+      "role": "Sweeper",
+      "age": 34,
+      "caps": 102,
+      "goals": 10,
+      "pace": 62,
+      "rating": 76
+    },
+    {
+      "name": "Frenkie de Jong",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 27,
+      "caps": 52,
+      "goals": 6,
+      "pace": 74,
+      "rating": 87
+    },
+    {
+      "name": "Tijjani Reijnders",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 26,
+      "caps": 22,
+      "goals": 6,
+      "pace": 78,
+      "rating": 84
+    },
+    {
+      "name": "Xavi Simons",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 22,
+      "caps": 20,
+      "goals": 8,
+      "pace": 84,
+      "rating": 84
+    },
+    {
+      "name": "Cody Gakpo",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 25,
+      "caps": 36,
+      "goals": 14,
+      "pace": 86,
+      "rating": 85
+    },
+    {
+      "name": "Steven Bergwijn",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 27,
+      "caps": 36,
+      "goals": 8,
+      "pace": 86,
+      "rating": 80
+    },
+    {
+      "name": "Teun Koopmeiners",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 26,
+      "caps": 24,
+      "goals": 8,
+      "pace": 72,
+      "rating": 83
+    },
+    {
+      "name": "Memphis Depay",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 30,
+      "caps": 96,
+      "goals": 44,
+      "pace": 86,
+      "rating": 83
+    },
+    {
+      "name": "Wout Weghorst",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 32,
+      "caps": 32,
+      "goals": 12,
+      "pace": 64,
+      "rating": 78
+    },
+    {
+      "name": "Brian Brobbey",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 22,
+      "caps": 10,
+      "goals": 4,
+      "pace": 84,
+      "rating": 78
+    },
+    {
+      "name": "Donyell Malen",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 25,
+      "caps": 24,
+      "goals": 8,
+      "pace": 90,
+      "rating": 80
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 22,
+      "caps": 16,
+      "goals": 2,
+      "pace": 78,
+      "rating": 82
+    }
+  ],
+  "Morocco": [
+    {
+      "name": "Yassine Bounou",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 33,
+      "caps": 52,
+      "goals": 0,
+      "pace": 54,
+      "rating": 86
+    },
+    {
+      "name": "Munir Mohamedi",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 34,
+      "caps": 22,
+      "goals": 0,
+      "pace": 52,
+      "rating": 76
+    },
+    {
+      "name": "Ahmed Reda Tagnaouti",
+      "pos": "GK",
+      "role": "Young keeper",
+      "age": 27,
+      "caps": 8,
+      "goals": 0,
+      "pace": 56,
+      "rating": 72
+    },
+    {
+      "name": "Achraf Hakimi",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 26,
+      "caps": 68,
+      "goals": 10,
+      "pace": 92,
+      "rating": 88
+    },
+    {
+      "name": "Nayef Aguerd",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 28,
+      "caps": 40,
+      "goals": 4,
+      "pace": 72,
+      "rating": 83
+    },
+    {
+      "name": "Romain Saïss",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 34,
+      "caps": 78,
+      "goals": 8,
+      "pace": 62,
+      "rating": 79
+    },
+    {
+      "name": "Noussair Mazraoui",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 27,
+      "caps": 34,
+      "goals": 4,
+      "pace": 82,
+      "rating": 83
+    },
+    {
+      "name": "Yahia Attiyat-Allah",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 28,
+      "caps": 20,
+      "goals": 1,
+      "pace": 80,
+      "rating": 76
+    },
+    {
+      "name": "Jawad El-Yamiq",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 31,
+      "caps": 24,
+      "goals": 2,
+      "pace": 70,
+      "rating": 76
+    },
+    {
+      "name": "Sofyan Amrabat",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 28,
+      "caps": 52,
+      "goals": 2,
+      "pace": 76,
+      "rating": 85
+    },
+    {
+      "name": "Azzedine Ounahi",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 24,
+      "caps": 24,
+      "goals": 4,
+      "pace": 78,
+      "rating": 80
+    },
+    {
+      "name": "Selim Amallah",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 27,
+      "caps": 20,
+      "goals": 6,
+      "pace": 72,
+      "rating": 77
+    },
+    {
+      "name": "Hakim Ziyech",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 32,
+      "caps": 66,
+      "goals": 22,
+      "pace": 78,
+      "rating": 83
+    },
+    {
+      "name": "Bilal El Khannouss",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 20,
+      "caps": 14,
+      "goals": 4,
+      "pace": 84,
+      "rating": 80
+    },
+    {
+      "name": "Ilias Chair",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 27,
+      "caps": 12,
+      "goals": 4,
+      "pace": 76,
+      "rating": 76
+    },
+    {
+      "name": "Youssef En-Nesyri",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 27,
+      "caps": 52,
+      "goals": 26,
+      "pace": 78,
+      "rating": 82
+    },
+    {
+      "name": "Abde Ezzalzouli",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 23,
+      "caps": 16,
+      "goals": 6,
+      "pace": 90,
+      "rating": 78
+    },
+    {
+      "name": "Anass Zaroury",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 23,
+      "caps": 10,
+      "goals": 4,
+      "pace": 86,
+      "rating": 76
+    },
+    {
+      "name": "Soufiane Rahimi",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 24,
+      "caps": 12,
+      "goals": 6,
+      "pace": 82,
+      "rating": 76
+    },
+    {
+      "name": "Zakaria Aboukhlal",
+      "pos": "FWD",
+      "role": "False 9",
+      "age": 24,
+      "caps": 14,
+      "goals": 4,
+      "pace": 84,
+      "rating": 75
+    }
+  ],
+  "Japan": [
+    {
+      "name": "Zion Suzuki",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 22,
+      "caps": 14,
+      "goals": 0,
+      "pace": 58,
+      "rating": 78
+    },
+    {
+      "name": "Shuichi Gonda",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 34,
+      "caps": 46,
+      "goals": 0,
+      "pace": 52,
+      "rating": 74
+    },
+    {
+      "name": "Ayumu Seko",
+      "pos": "GK",
+      "role": "Young keeper",
+      "age": 21,
+      "caps": 2,
+      "goals": 0,
+      "pace": 60,
+      "rating": 68
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 26,
+      "caps": 40,
+      "goals": 1,
+      "pace": 76,
+      "rating": 82
+    },
+    {
+      "name": "Yuto Nagatomo",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 38,
+      "caps": 142,
+      "goals": 6,
+      "pace": 68,
+      "rating": 74
+    },
+    {
+      "name": "Maya Yoshida",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 36,
+      "caps": 130,
+      "goals": 10,
+      "pace": 64,
+      "rating": 76
+    },
+    {
+      "name": "Ko Itakura",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 27,
+      "caps": 30,
+      "goals": 2,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Shogo Taniguchi",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 32,
+      "caps": 20,
+      "goals": 2,
+      "pace": 66,
+      "rating": 76
+    },
+    {
+      "name": "Hiroki Ito",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 25,
+      "caps": 16,
+      "goals": 2,
+      "pace": 80,
+      "rating": 78
+    },
+    {
+      "name": "Wataru Endō",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 31,
+      "caps": 58,
+      "goals": 4,
+      "pace": 70,
+      "rating": 82
+    },
+    {
+      "name": "Hidemasa Morita",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 29,
+      "caps": 30,
+      "goals": 2,
+      "pace": 70,
+      "rating": 78
+    },
+    {
+      "name": "Takumi Minamino",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 29,
+      "caps": 68,
+      "goals": 24,
+      "pace": 80,
+      "rating": 82
+    },
+    {
+      "name": "Kaoru Mitoma",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 27,
+      "caps": 32,
+      "goals": 10,
+      "pace": 90,
+      "rating": 84
+    },
+    {
+      "name": "Junya Ito",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 31,
+      "caps": 52,
+      "goals": 10,
+      "pace": 88,
+      "rating": 80
+    },
+    {
+      "name": "Gaku Shibasaki",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 33,
+      "caps": 48,
+      "goals": 8,
+      "pace": 64,
+      "rating": 76
+    },
+    {
+      "name": "Ritsu Dōan",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 26,
+      "caps": 42,
+      "goals": 16,
+      "pace": 84,
+      "rating": 82
+    },
+    {
+      "name": "Daichi Kamada",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 28,
+      "caps": 40,
+      "goals": 16,
+      "pace": 78,
+      "rating": 82
+    },
+    {
+      "name": "Ayase Ueda",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 26,
+      "caps": 20,
+      "goals": 12,
+      "pace": 78,
+      "rating": 78
+    },
+    {
+      "name": "Yuya Osako",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 34,
+      "caps": 68,
+      "goals": 20,
+      "pace": 72,
+      "rating": 76
+    },
+    {
+      "name": "Takefusa Kubo",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 23,
+      "caps": 26,
+      "goals": 6,
+      "pace": 86,
+      "rating": 80
+    }
+  ],
+  "USA": [
+    {
+      "name": "Matt Turner",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 30,
+      "caps": 32,
+      "goals": 0,
+      "pace": 56,
+      "rating": 78
+    },
+    {
+      "name": "Ethan Horvath",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 29,
+      "caps": 14,
+      "goals": 0,
+      "pace": 54,
+      "rating": 74
+    },
+    {
+      "name": "Patrick Schulte",
+      "pos": "GK",
+      "role": "Young keeper",
+      "age": 23,
+      "caps": 4,
+      "goals": 0,
+      "pace": 60,
+      "rating": 72
+    },
+    {
+      "name": "Sergiño Dest",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 24,
+      "caps": 36,
+      "goals": 4,
+      "pace": 84,
+      "rating": 80
+    },
+    {
+      "name": "Antonee Robinson",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 27,
+      "caps": 36,
+      "goals": 2,
+      "pace": 86,
+      "rating": 82
+    },
+    {
+      "name": "Miles Robinson",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 27,
+      "caps": 32,
+      "goals": 4,
+      "pace": 72,
+      "rating": 78
+    },
+    {
+      "name": "Chris Richards",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 24,
+      "caps": 20,
+      "goals": 1,
+      "pace": 74,
+      "rating": 78
+    },
+    {
+      "name": "Tim Ream",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 37,
+      "caps": 56,
+      "goals": 2,
+      "pace": 60,
+      "rating": 74
+    },
+    {
+      "name": "DeAndre Yedlin",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 32,
+      "caps": 80,
+      "goals": 2,
+      "pace": 88,
+      "rating": 76
+    },
+    {
+      "name": "Tyler Adams",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 26,
+      "caps": 52,
+      "goals": 4,
+      "pace": 78,
+      "rating": 83
+    },
+    {
+      "name": "Weston McKennie",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 26,
+      "caps": 54,
+      "goals": 14,
+      "pace": 76,
+      "rating": 82
+    },
+    {
+      "name": "Yunus Musah",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 22,
+      "caps": 32,
+      "goals": 4,
+      "pace": 82,
+      "rating": 82
+    },
+    {
+      "name": "Timothy Weah",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 24,
+      "caps": 36,
+      "goals": 6,
+      "pace": 86,
+      "rating": 78
+    },
+    {
+      "name": "Gio Reyna",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 22,
+      "caps": 28,
+      "goals": 8,
+      "pace": 82,
+      "rating": 80
+    },
+    {
+      "name": "Brenden Aaronson",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 24,
+      "caps": 36,
+      "goals": 8,
+      "pace": 80,
+      "rating": 78
+    },
+    {
+      "name": "Christian Pulisic",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 26,
+      "caps": 68,
+      "goals": 28,
+      "pace": 86,
+      "rating": 85
+    },
+    {
+      "name": "Josh Sargent",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 24,
+      "caps": 36,
+      "goals": 14,
+      "pace": 80,
+      "rating": 78
+    },
+    {
+      "name": "Folarin Balogun",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 23,
+      "caps": 14,
+      "goals": 8,
+      "pace": 80,
+      "rating": 78
+    },
+    {
+      "name": "Ricardo Pepi",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 21,
+      "caps": 22,
+      "goals": 10,
+      "pace": 76,
+      "rating": 76
+    },
+    {
+      "name": "Jesús Ferreira",
+      "pos": "FWD",
+      "role": "False 9",
+      "age": 23,
+      "caps": 28,
+      "goals": 12,
+      "pace": 78,
+      "rating": 76
+    }
+  ],
+  "Mexico": [
+    {
+      "name": "Guillermo Ochoa",
+      "pos": "GK",
+      "role": "First-choice keeper",
+      "age": 39,
+      "caps": 142,
+      "goals": 0,
+      "pace": 52,
+      "rating": 80
+    },
+    {
+      "name": "Luis Malagón",
+      "pos": "GK",
+      "role": "Reserve keeper",
+      "age": 27,
+      "caps": 12,
+      "goals": 0,
+      "pace": 56,
+      "rating": 76
+    },
+    {
+      "name": "Rodolfo Cota",
+      "pos": "GK",
+      "role": "Third keeper",
+      "age": 36,
+      "caps": 14,
+      "goals": 0,
+      "pace": 50,
+      "rating": 72
+    },
+    {
+      "name": "Jorge Sánchez",
+      "pos": "DEF",
+      "role": "Right back",
+      "age": 24,
+      "caps": 22,
+      "goals": 1,
+      "pace": 82,
+      "rating": 76
+    },
+    {
+      "name": "Jesús Gallardo",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 29,
+      "caps": 44,
+      "goals": 4,
+      "pace": 80,
+      "rating": 78
+    },
+    {
+      "name": "César Montes",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 27,
+      "caps": 36,
+      "goals": 4,
+      "pace": 70,
+      "rating": 78
+    },
+    {
+      "name": "Johan Vásquez",
+      "pos": "DEF",
+      "role": "Centre back",
+      "age": 24,
+      "caps": 20,
+      "goals": 2,
+      "pace": 72,
+      "rating": 76
+    },
+    {
+      "name": "Gerardo Arteaga",
+      "pos": "DEF",
+      "role": "Left back",
+      "age": 24,
+      "caps": 16,
+      "goals": 1,
+      "pace": 80,
+      "rating": 74
+    },
+    {
+      "name": "Kevin Álvarez",
+      "pos": "DEF",
+      "role": "Wing back",
+      "age": 25,
+      "caps": 14,
+      "goals": 1,
+      "pace": 80,
+      "rating": 74
+    },
+    {
+      "name": "Edson Álvarez",
+      "pos": "MID",
+      "role": "Defensive mid",
+      "age": 27,
+      "caps": 64,
+      "goals": 6,
+      "pace": 72,
+      "rating": 84
+    },
+    {
+      "name": "Héctor Herrera",
+      "pos": "MID",
+      "role": "Box-to-box mid",
+      "age": 34,
+      "caps": 110,
+      "goals": 14,
+      "pace": 70,
+      "rating": 78
+    },
+    {
+      "name": "Carlos Rodríguez",
+      "pos": "MID",
+      "role": "Attacking mid",
+      "age": 27,
+      "caps": 28,
+      "goals": 4,
+      "pace": 74,
+      "rating": 78
+    },
+    {
+      "name": "Alexis Vega",
+      "pos": "MID",
+      "role": "Left winger",
+      "age": 26,
+      "caps": 28,
+      "goals": 8,
+      "pace": 82,
+      "rating": 78
+    },
+    {
+      "name": "Hirving Lozano",
+      "pos": "MID",
+      "role": "Right winger",
+      "age": 29,
+      "caps": 78,
+      "goals": 20,
+      "pace": 90,
+      "rating": 82
+    },
+    {
+      "name": "Érick Gutiérrez",
+      "pos": "MID",
+      "role": "Deep playmaker",
+      "age": 28,
+      "caps": 36,
+      "goals": 4,
+      "pace": 68,
+      "rating": 76
+    },
+    {
+      "name": "Raúl Jiménez",
+      "pos": "FWD",
+      "role": "Centre forward",
+      "age": 33,
+      "caps": 102,
+      "goals": 40,
+      "pace": 74,
+      "rating": 82
+    },
+    {
+      "name": "Santiago Giménez",
+      "pos": "FWD",
+      "role": "Target striker",
+      "age": 23,
+      "caps": 20,
+      "goals": 14,
+      "pace": 76,
+      "rating": 80
+    },
+    {
+      "name": "Henry Martín",
+      "pos": "FWD",
+      "role": "Second striker",
+      "age": 31,
+      "caps": 34,
+      "goals": 18,
+      "pace": 72,
+      "rating": 76
+    },
+    {
+      "name": "Roberto Alvarado",
+      "pos": "FWD",
+      "role": "Left winger",
+      "age": 25,
+      "caps": 22,
+      "goals": 6,
+      "pace": 82,
+      "rating": 76
+    },
+    {
+      "name": "Uriel Antuna",
+      "pos": "FWD",
+      "role": "Right winger",
+      "age": 26,
+      "caps": 22,
+      "goals": 6,
+      "pace": 84,
+      "rating": 74
+    }
+  ]
+}
