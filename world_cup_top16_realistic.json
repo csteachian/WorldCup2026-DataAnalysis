@@ -1,0 +1,3714 @@
+{
+  "England": [
+    {
+      "name": "Jordan Pickford",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Aaron Ramsdale",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dean Henderson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kyle Walker",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kieran Trippier",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luke Shaw",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "John Stones",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Harry Maguire",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marc Guehi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Declan Rice",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jude Bellingham",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Phil Foden",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bukayo Saka",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jack Grealish",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "James Maddison",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Harry Kane",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ollie Watkins",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marcus Rashford",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jarrod Bowen",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cole Palmer",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Anthony Gordon",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Conor Gallagher",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "France": [
+    {
+      "name": "Mike Maignan",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Brice Samba",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alphonse Areola",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Theo Hernandez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jules Kounde",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dayot Upamecano",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ibrahima Konate",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "William Saliba",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Benjamin Pavard",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "N'Golo Kante",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Aurelien Tchouameni",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Adrien Rabiot",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Antoine Griezmann",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ousmane Dembele",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kingsley Coman",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kylian Mbappe",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marcus Thuram",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bradley Barcola",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Warren Zaire-Emery",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Youssouf Fofana",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Olivier Giroud",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Spain": [
+    {
+      "name": "Unai Simon",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "David Raya",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alex Remiro",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dani Carvajal",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jesus Navas",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Aymeric Laporte",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Robin Le Normand",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nacho",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Rodri",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Pedri",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Gavi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Fermin Lopez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Fabian Ruiz",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dani Olmo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lamine Yamal",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nico Williams",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alvaro Morata",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joselu",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ferran Torres",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marco Asensio",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Aleix Garcia",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Germany": [
+    {
+      "name": "Manuel Neuer",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marc-Andre ter Stegen",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kevin Trapp",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joshua Kimmich",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Antonio Rudiger",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jonathan Tah",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nico Schlotterbeck",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "David Raum",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Robin Gosens",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ilkay Gundogan",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jamal Musiala",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Florian Wirtz",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Toni Kroos",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Leon Goretzka",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kai Havertz",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Leroy Sane",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Serge Gnabry",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Niclas Fullkrug",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Thomas Muller",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Julian Brandt",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Pascal Gross",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Chris Fuhrich",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Maximilian Mittelstadt",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Portugal": [
+    {
+      "name": "Diogo Costa",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jose Sa",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Rui Patricio",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joao Cancelo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Diogo Dalot",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ruben Dias",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Antonio Silva",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Goncalo Inacio",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nuno Mendes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Pepe",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bruno Fernandes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bernardo Silva",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Vitinha",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joao Neves",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ruben Neves",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Rafael Leao",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Goncalo Ramos",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Diogo Jota",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joao Felix",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Pedro Neto",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Francisco Conceicao",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Otavio",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Brazil": [
+    {
+      "name": "Alisson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ederson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Weverton",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Danilo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marquinhos",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Eder Militao",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Gabriel Magalhaes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alex Sandro",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Vanderson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Casemiro",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bruno Guimaraes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lucas Paqueta",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joao Gomes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Douglas Luiz",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Raphinha",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Rodrygo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Vinicius Jr",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Richarlison",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Endrick",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Neymar",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Savinho",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Antony",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Argentina": [
+    {
+      "name": "Emiliano Martinez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Geronimo Rulli",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Franco Armani",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nahuel Molina",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cristian Romero",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lisandro Martinez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nicolas Otamendi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marcos Acuna",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Leandro Paredes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Enzo Fernandez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lionel Messi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lautaro Martinez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Julian Alvarez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Angel Di Maria",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Paulo Dybala",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nicolas Gonzalez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Exequiel Palacios",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Guido Rodriguez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Netherlands": [
+    {
+      "name": "Bart Verbruggen",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Mark Flekken",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Justin Bijlow",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Virgil van Dijk",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Matthijs de Ligt",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nathan Ake",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Stefan de Vrij",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Denzel Dumfries",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Quilindschy Hartman",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Frenkie de Jong",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Teun Koopmeiners",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Tijjani Reijnders",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Georginio Wijnaldum",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Xavi Simons",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Memphis Depay",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cody Gakpo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Steven Bergwijn",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Wout Weghorst",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Donyell Malen",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Noa Lang",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ryan Gravenberch",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jeremie Frimpong",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Daley Blind",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Belgium": [
+    {
+      "name": "Koen Casteels",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Matz Sels",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Thomas Kaminski",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jan Vertonghen",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Wout Faes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Arthur Theate",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Timothy Castagne",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Thomas Meunier",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jeremy Doku",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Youri Tielemans",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Amadou Onana",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Leandro Trossard",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Romelu Lukaku",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lois Openda",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Charles De Ketelaere",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Yannick Carrasco",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Aster Vranckx",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Orel Mangala",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Zeno Debast",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Johan Bakayoko",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Arthur Vermeeren",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dodi Lukebakio",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Italy": [
+    {
+      "name": "Gianluigi Donnarumma",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Guglielmo Vicario",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alex Meret",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Giovanni Di Lorenzo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Alessandro Bastoni",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Francesco Acerbi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Giorgio Scalvini",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Federico Dimarco",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Andrea Cambiaso",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nicolo Barella",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jorginho",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Davide Frattesi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lorenzo Pellegrini",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Federico Chiesa",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Domenico Berardi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Giacomo Raspadori",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Gianluca Scamacca",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Moise Kean",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Matteo Politano",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Riccardo Calafiori",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bryan Cristante",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Stephan El Shaarawy",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Destiny Udogie",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "USA": [
+    {
+      "name": "Matt Turner",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ethan Horvath",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Sean Johnson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Sergino Dest",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Antonee Robinson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Tim Ream",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Chris Richards",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Walker Zimmerman",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Joe Scally",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Tyler Adams",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Weston McKennie",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Yunus Musah",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Giovanni Reyna",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Christian Pulisic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Tim Weah",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Brenden Aaronson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ricardo Pepi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Folarin Balogun",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Josh Sargent",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Malik Tillman",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luca de la Torre",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cameron Carter-Vickers",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Miles Robinson",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Mexico": [
+    {
+      "name": "Guillermo Ochoa",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luis Malagon",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Carlos Acevedo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jorge Sanchez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jesus Gallardo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cesar Montes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Johan Vasquez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Edson Alvarez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luis Chavez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Orbelin Pineda",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hirving Lozano",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Uriel Antuna",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Santiago Gimenez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Raul Jimenez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Henry Martin",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Erick Sanchez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Roberto Alvarado",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Diego Lainez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kevin Alvarez",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Gerardo Arteaga",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Israel Reyes",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luis Romo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Julian Quinones",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Japan": [
+    {
+      "name": "Shuichi Gonda",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Zion Suzuki",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Daniel Schmidt",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Takehiro Tomiyasu",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ko Itakura",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Maya Yoshida",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hiroki Ito",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Yuta Nakayama",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Wataru Endo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ao Tanaka",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hidemasa Morita",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Daichi Kamada",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Takefusa Kubo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kaoru Mitoma",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ritsu Doan",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Junya Ito",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Takumi Minamino",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kyogo Furuhashi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ayase Ueda",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Daizen Maeda",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Reo Hatate",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Koji Miyoshi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Yuki Soma",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "South Korea": [
+    {
+      "name": "Kim Seung-gyu",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jo Hyeon-woo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Song Bum-keun",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kim Min-jae",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kim Young-gwon",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kim Jin-su",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Seol Young-woo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lee Ki-je",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hwang In-beom",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jung Woo-young",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lee Jae-sung",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Son Heung-min",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hwang Hee-chan",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lee Kang-in",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Cho Gue-sung",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hwang Ui-jo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jeong Woo-yeong",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Paik Seung-ho",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Na Sang-ho",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hong Hyun-seok",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Park Yong-woo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kim Tae-hwan",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Kwon Kyung-won",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Morocco": [
+    {
+      "name": "Yassine Bounou",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Munir Mohamedi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ahmed Reda Tagnaouti",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Achraf Hakimi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Noussair Mazraoui",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Romain Saiss",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nayef Aguerd",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Jawad El Yamiq",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Sofyan Amrabat",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Azzedine Ounahi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Selim Amallah",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bilal El Khannouss",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Hakim Ziyech",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Sofiane Boufal",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Abde Ezzalzouli",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Youssef En-Nesyri",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ayoub El Kaabi",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Tarik Tissoudali",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ilias Chair",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Yahya Attiat-Allah",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Walid Cheddira",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Amine Harit",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Zakaria Aboukhlal",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ],
+  "Croatia": [
+    {
+      "name": "Dominik Livakovic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ivica Ivusic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nediljko Labrovic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Josip Stanisic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Josko Gvardiol",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Domagoj Vida",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dejan Lovren",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Borna Sosa",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marcelo Brozovic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luka Modric",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Mateo Kovacic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Mario Pasalic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Lovro Majer",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Luka Ivanusec",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Ivan Perisic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Andrej Kramaric",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Bruno Petkovic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Marko Livaja",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Josip Brekalo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Petar Musa",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Nikola Vlasic",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Martin Baturina",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    },
+    {
+      "name": "Dion Drena Beljo",
+      "pos": "MID",
+      "role": "Squad player",
+      "age": 27,
+      "caps": 25,
+      "goals": 5,
+      "pace": 70,
+      "rating": 80
+    }
+  ]
+}

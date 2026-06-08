@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Match Simulator</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&amp;family=Source+Sans+3:wght@400;600&amp;display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Source Sans 3', sans-serif; }
+    .font-heading { font-family: 'Oswald', sans-serif; }
+    @keyframes goalFlash { 0%,100%{opacity:1} 50%{opacity:0.3} }
+    .goal-flash { animation: goalFlash 0.3s ease 3; }
+    @keyframes slideIn { from{transform:translateX(-100%;opacity:0)} to{transform:translateX(0);opacity:1} }
+    .slide-in { animation: slideIn 0.4s ease forwards; }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ <script src="/_sdk/telemetry_sdk.js"></script></head>
+ <body class="h-full">
+  <div id="app" class="h-full w-full overflow-auto bg-gradient-to-br from-slate-900 via-emerald-950 to-slate-900 text-white">
+   <!-- Upload Screen -->
+   <div id="upload-screen" class="flex flex-col items-center justify-center min-h-full p-6">
+    <h1 id="page-title" class="font-heading text-4xl md:text-5xl font-bold text-emerald-400 mb-2 text-center">Football Match Simulator</h1>
+    <p class="text-slate-400 mb-10 text-center">Load two team JSON files to simulate a match</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-2xl mb-8">
+     <div class="bg-slate-800/70 border-2 border-dashed border-slate-600 rounded-xl p-6 text-center hover:border-emerald-500 transition-colors">
+      <i data-lucide="upload" class="mx-auto mb-3 text-emerald-400" style="width:36px;height:36px"></i>
+      <p class="font-heading text-lg mb-3">Home Team</p><input type="file" id="home-file" accept=".json" class="block w-full text-sm text-slate-400 file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-emerald-600 file:text-white file:cursor-pointer file:font-semibold hover:file:bg-emerald-500">
+      <p id="home-status" class="mt-2 text-sm text-slate-500">No file loaded</p>
+     </div>
+     <div class="bg-slate-800/70 border-2 border-dashed border-slate-600 rounded-xl p-6 text-center hover:border-emerald-500 transition-colors">
+      <i data-lucide="upload" class="mx-auto mb-3 text-emerald-400" style="width:36px;height:36px"></i>
+      <p class="font-heading text-lg mb-3">Away Team</p><input type="file" id="away-file" accept=".json" class="block w-full text-sm text-slate-400 file:mr-3 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-emerald-600 file:text-white file:cursor-pointer file:font-semibold hover:file:bg-emerald-500">
+      <p id="away-status" class="mt-2 text-sm text-slate-500">No file loaded</p>
+     </div>
+    </div>
+    <div class="bg-slate-800/60 rounded-xl p-5 max-w-2xl w-full mb-8">
+     <p class="font-heading text-emerald-400 mb-2">Expected JSON Format:</p>
+     <pre class="text-xs text-slate-300 overflow-x-auto"><code>{
+  "team_name": "Team A",
+  "players": [
+    { "name": "Player 1", "position": "GK", "age": 28, "caps": 50, "goals": 0, "pace": 40, "rating": 82 },
+    { "name": "Player 2", "position": "DEF", "age": 25, "caps": 30, "goals": 2, "pace": 72, "rating": 78 },
+    ...
+  ]
+}</code></pre>
+    </div><button id="simulate-btn" disabled class="font-heading text-xl bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-700 disabled:text-slate-500 px-10 py-3 rounded-xl transition-colors font-bold uppercase tracking-wider"> Kick Off </button>
+   </div><!-- Match Screen -->
+   <div id="match-screen" class="hidden min-h-full p-4 md:p-6">
+    <div class="max-w-4xl mx-auto">
+     <!-- Scoreboard -->
+     <div class="bg-slate-800/80 rounded-2xl p-6 mb-6 text-center border border-slate-700">
+      <div class="flex items-center justify-center gap-4 md:gap-8">
+       <div class="flex-1 text-right">
+        <p id="home-name" class="font-heading text-xl md:text-3xl font-bold text-emerald-400"></p>
+       </div>
+       <div class="flex items-center gap-3">
+        <span id="home-score" class="font-heading text-4xl md:text-6xl font-bold">0</span> <span class="font-heading text-2xl md:text-4xl text-slate-500">-</span> <span id="away-score" class="font-heading text-4xl md:text-6xl font-bold">0</span>
+       </div>
+       <div class="flex-1 text-left">
+        <p id="away-name" class="font-heading text-xl md:text-3xl font-bold text-sky-400"></p>
+       </div>
+      </div>
+      <p id="match-minute" class="text-slate-400 mt-2 font-heading text-lg">0'</p>
+     </div><!-- Controls -->
+     <div class="flex justify-center gap-3 mb-6">
+      <button id="play-btn" class="bg-emerald-600 hover:bg-emerald-500 px-5 py-2 rounded-lg font-semibold transition-colors flex items-center gap-2"> <i data-lucide="play" style="width:16px;height:16px"></i> Play </button> <button id="fast-btn" class="bg-sky-600 hover:bg-sky-500 px-5 py-2 rounded-lg font-semibold transition-colors flex items-center gap-2"> <i data-lucide="fast-forward" style="width:16px;height:16px"></i> Fast </button> <button id="reset-btn" class="bg-slate-700 hover:bg-slate-600 px-5 py-2 rounded-lg font-semibold transition-colors flex items-center gap-2"> <i data-lucide="rotate-ccw" style="width:16px;height:16px"></i> Reset </button>
+     </div><!-- Commentary -->
+     <div class="bg-slate-800/60 rounded-xl p-4 border border-slate-700 max-h-80 overflow-y-auto" id="commentary">
+      <p class="text-slate-500 italic">Match commentary will appear here...</p>
+     </div><!-- Stats -->
+     <div id="stats-panel" class="hidden bg-slate-800/60 rounded-xl p-5 mt-6 border border-slate-700">
+      <h3 class="font-heading text-xl text-center mb-4 text-emerald-400">Match Statistics</h3>
+      <div id="stats-content"></div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script>
+  // SDK Init
+  const defaultConfig = {
+    page_title: 'Football Match Simulator',
+    primary_color: '#10b981',
+    surface_color: '#1e293b',
+    text_color: '#ffffff',
+    accent_color: '#0ea5e9',
+    bg_color: '#0f172a'
+  };
+
+  window.elementSdk.init({
+    defaultConfig,
+    onConfigChange: async (config) => {
+      const title = config.page_title || defaultConfig.page_title;
+      document.getElementById('page-title').textContent = title;
+      document.title = title;
+    },
+    mapToCapabilities: (config) => ({
+      recolorables: [
+        { get: () => config.bg_color || defaultConfig.bg_color, set: (v) => { config.bg_color = v; window.elementSdk.setConfig({ bg_color: v }); }},
+        { get: () => config.surface_color || defaultConfig.surface_color, set: (v) => { config.surface_color = v; window.elementSdk.setConfig({ surface_color: v }); }},
+        { get: () => config.text_color || defaultConfig.text_color, set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); }},
+        { get: () => config.primary_color || defaultConfig.primary_color, set: (v) => { config.primary_color = v; window.elementSdk.setConfig({ primary_color: v }); }},
+        { get: () => config.accent_color || defaultConfig.accent_color, set: (v) => { config.accent_color = v; window.elementSdk.setConfig({ accent_color: v }); }}
+      ],
+      borderables: [],
+      fontEditable: undefined,
+      fontSizeable: undefined
+    }),
+    mapToEditPanelValues: (config) => new Map([
+      ['page_title', config.page_title || defaultConfig.page_title]
+    ])
+  });
+
+  // Game State
+  let homeTeam = null, awayTeam = null;
+  let matchInterval = null, minute = 0, homeGoals = 0, awayGoals = 0;
+  let events = [];
+
+  const homeFile = document.getElementById('home-file');
+  const awayFile = document.getElementById('away-file');
+  const simBtn = document.getElementById('simulate-btn');
+
+  function loadFile(input, isHome) {
+    return new Promise((resolve) => {
+      input.addEventListener('change', () => {
+        const file = input.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          try {
+            const data = JSON.parse(e.target.result);
+            if (isHome) { homeTeam = data; document.getElementById('home-status').textContent = `✓ ${data.team_name || 'Home'} loaded`; }
+            else { awayTeam = data; document.getElementById('away-status').textContent = `✓ ${data.team_name || 'Away'} loaded`; }
+            document.getElementById(isHome ? 'home-status' : 'away-status').classList.add('text-emerald-400');
+            if (homeTeam && awayTeam) simBtn.disabled = false;
+          } catch { 
+            document.getElementById(isHome ? 'home-status' : 'away-status').textContent = '✗ Invalid JSON';
+          }
+        };
+        reader.readAsText(file);
+      });
+    });
+  }
+  loadFile(homeFile, true);
+  loadFile(awayFile, false);
+
+  // Calculate team strength
+  function teamStrength(team) {
+    const players = team.players || [];
+    if (!players.length) return 50;
+    const avgRating = players.reduce((s, p) => s + (p.rating || 60), 0) / players.length;
+    const avgPace = players.reduce((s, p) => s + (p.pace || 50), 0) / players.length;
+    const experience = players.reduce((s, p) => s + (p.caps || 0), 0) / players.length;
+    return avgRating * 0.5 + avgPace * 0.25 + Math.min(experience, 50) * 0.25;
+  }
+
+  function getScorers(team) {
+    return (team.players || []).filter(p => p.position !== 'GK').sort((a, b) => ((b.goals || 0) + (b.rating || 0)) - ((a.goals || 0) + (a.rating || 0)));
+  }
+
+  function randomScorer(team) {
+    const scorers = getScorers(team);
+    if (!scorers.length) return 'Unknown';
+    // Weighted random favoring top scorers
+    const weights = scorers.map((p, i) => Math.max(1, scorers.length - i));
+    const total = weights.reduce((a, b) => a + b, 0);
+    let r = Math.random() * total;
+    for (let i = 0; i < scorers.length; i++) {
+      r -= weights[i];
+      if (r <= 0) return scorers[i].name;
+    }
+    return scorers[0].name;
+  }
+
+  function addCommentary(text, isGoal) {
+    const commentary = document.getElementById('commentary');
+    if (commentary.querySelector('.italic')) commentary.innerHTML = '';
+    const div = document.createElement('div');
+    div.className = `py-1 px-2 rounded mb-1 slide-in ${isGoal ? 'bg-emerald-900/50 font-bold text-emerald-300' : 'text-slate-300'}`;
+    div.textContent = text;
+    commentary.prepend(div);
+    if (isGoal) {
+      document.getElementById('home-score').classList.add('goal-flash');
+      document.getElementById('away-score').classList.add('goal-flash');
+      setTimeout(() => {
+        document.getElementById('home-score').classList.remove('goal-flash');
+        document.getElementById('away-score').classList.remove('goal-flash');
+      }, 1000);
+    }
+  }
+
+  function getRandomPlayer(team, excludeGK = true) {
+    const players = team.players || [];
+    const filtered = excludeGK ? players.filter(p => p.position !== 'GK') : players;
+    if (!filtered.length) return 'Player';
+    return filtered[Math.floor(Math.random() * filtered.length)].name;
+  }
+
+  function getGoalkeeper(team) {
+    const gk = (team.players || []).find(p => p.position === 'GK');
+    return gk ? gk.name : 'Goalkeeper';
+  }
+
+  function simulateMinute() {
+    minute++;
+    document.getElementById('match-minute').textContent = minute + "'";
+
+    const homeStr = teamStrength(homeTeam);
+    const awayStr = teamStrength(awayTeam);
+    const total = homeStr + awayStr;
+    const goalChance = 0.033; // ~3 goals per match
+
+    if (Math.random() < goalChance) {
+      const isHome = Math.random() < (homeStr / total) * 1.1; // slight home advantage
+      if (isHome) {
+        homeGoals++;
+        const scorer = randomScorer(homeTeam);
+        document.getElementById('home-score').textContent = homeGoals;
+        addCommentary(`⚽ ${minute}' GOAL! ${scorer} scores for ${homeTeam.team_name}!`, true);
+      } else {
+        awayGoals++;
+        const scorer = randomScorer(awayTeam);
+        document.getElementById('away-score').textContent = awayGoals;
+        addCommentary(`⚽ ${minute}' GOAL! ${scorer} scores for ${awayTeam.team_name}!`, true);
+      }
+    } else if (Math.random() < 0.08) {
+      // Random events with player names
+      const eventTypes = [
+        () => `${minute}' ${getRandomPlayer(homeTeam)} drives forward for ${homeTeam.team_name}`,
+        () => `${minute}' ${getRandomPlayer(awayTeam)} makes a dangerous run`,
+        () => `${minute}' ${getGoalkeeper(homeTeam)} makes a brilliant save!`,
+        () => `${minute}' ${getRandomPlayer(homeTeam)} shoots wide of the goal`,
+        () => `${minute}' ${getRandomPlayer(awayTeam)} draws a foul`,
+        () => `${minute}' ${getGoalkeeper(awayTeam)} punches clear`,
+        () => `${minute}' ${getRandomPlayer(homeTeam)} and ${getRandomPlayer(awayTeam)} battle for possession`,
+        () => `${minute}' ${getRandomPlayer(awayTeam)} wins the ball back`,
+        () => `${minute}' Corner kick to ${homeTeam.team_name}`,
+        () => `${minute}' ${getRandomPlayer(homeTeam)} crosses from the wing`,
+        () => `${minute}' Free kick awarded to ${awayTeam.team_name}`,
+        () => `${minute}' ${getRandomPlayer(awayTeam)} heads the ball away`,
+        () => `${minute}' Great skill shown by ${getRandomPlayer(homeTeam)}`,
+        () => `${minute}' ${getRandomPlayer(awayTeam)} passes to ${getRandomPlayer(awayTeam)}`,
+      ];
+      addCommentary(eventTypes[Math.floor(Math.random() * eventTypes.length)](), false);
+    }
+
+    if (minute === 45) addCommentary('— Half Time —', false);
+    if (minute >= 90) endMatch();
+  }
+
+  function endMatch() {
+    clearInterval(matchInterval);
+    matchInterval = null;
+    addCommentary('🏁 Full Time!', false);
+    document.getElementById('match-minute').textContent = "FT";
+    showStats();
+  }
+
+  function showStats() {
+    const panel = document.getElementById('stats-panel');
+    const content = document.getElementById('stats-content');
+    panel.classList.remove('hidden');
+    const homeStr = teamStrength(homeTeam).toFixed(0);
+    const awayStr = teamStrength(awayTeam).toFixed(0);
+    content.innerHTML = `
+      <div class="space-y-3">
+        ${statBar('Team Rating', homeStr, awayStr)}
+        ${statBar('Avg Pace', avgStat(homeTeam, 'pace'), avgStat(awayTeam, 'pace'))}
+        ${statBar('Avg Caps', avgStat(homeTeam, 'caps'), avgStat(awayTeam, 'caps'))}
+      </div>
+    `;
+  }
+
+  function avgStat(team, key) {
+    const p = team.players || [];
+    if (!p.length) return 0;
+    return Math.round(p.reduce((s, pl) => s + (pl[key] || 0), 0) / p.length);
+  }
+
+  function statBar(label, home, away) {
+    const max = Math.max(home, away, 1);
+    return `<div>
+      <p class="text-sm text-slate-400 text-center mb-1">${label}</p>
+      <div class="flex items-center gap-2">
+        <span class="text-emerald-400 w-8 text-right text-sm font-bold">${home}</span>
+        <div class="flex-1 flex h-3 rounded-full overflow-hidden bg-slate-700">
+          <div class="bg-emerald-500 h-full" style="width:${(home/max)*50}%"></div>
+          <div class="flex-1"></div>
+          <div class="bg-sky-500 h-full" style="width:${(away/max)*50}%"></div>
+        </div>
+        <span class="text-sky-400 w-8 text-sm font-bold">${away}</span>
+      </div>
+    </div>`;
+  }
+
+  // Button handlers
+  simBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('upload-screen').classList.add('hidden');
+    document.getElementById('match-screen').classList.remove('hidden');
+    document.getElementById('home-name').textContent = homeTeam.team_name || 'Home';
+    document.getElementById('away-name').textContent = awayTeam.team_name || 'Away';
+    lucide.createIcons();
+  });
+
+  document.getElementById('play-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (matchInterval || minute >= 90) return;
+    matchInterval = setInterval(simulateMinute, 800);
+  });
+
+  document.getElementById('fast-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (matchInterval) clearInterval(matchInterval);
+    if (minute >= 90) return;
+    matchInterval = setInterval(simulateMinute, 100);
+  });
+
+  document.getElementById('reset-btn').addEventListener('click', (e) => {
+    e.preventDefault();
+    if (matchInterval) clearInterval(matchInterval);
+    matchInterval = null;
+    minute = 0; homeGoals = 0; awayGoals = 0;
+    document.getElementById('home-score').textContent = '0';
+    document.getElementById('away-score').textContent = '0';
+    document.getElementById('match-minute').textContent = "0'";
+    document.getElementById('commentary').innerHTML = '<p class="text-slate-500 italic">Match commentary will appear here...</p>';
+    document.getElementById('stats-panel').classList.add('hidden');
+  });
+
+  lucide.createIcons();
+</script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a08b95b6f9fdf5ee',t:'MTc4MDk2MDM4Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
