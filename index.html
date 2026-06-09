@@ -616,6 +616,109 @@ function squadStrength(squad){
 }
 
 // ─── SAVE & LEADERBOARD ───────────────────────────────────────────────────────
+async function saveJsonToFile(data, filename) {
+  const json = JSON.stringify(data, null, 2);
+  const blob = new Blob([json], { type: "application/json" });
+
+  const supportsFileSystemAccess =
+    "showSaveFilePicker" in window &&
+    (() => {
+      try {
+        return window.self === window.top;
+      } catch {
+        return false;
+      }
+    })();
+
+  if (supportsFileSystemAccess) {
+    try {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: filename,
+        startIn: "downloads",
+        types: [
+          {
+            description: "JSON files",
+            accept: { "application/json": [".json"] }
+          }
+        ]
+      });
+
+      const writable = await handle.createWritable();
+      await writable.write(blob);
+      await writable.close();
+      return true;
+    } catch (err) {
+      if (err.name === "AbortError") return false;
+      console.error(err);
+    }
+  }
+
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+
+  setTimeout(() => {
+    URL.revokeObjectURL(url);
+    a.remove();
+  }, 1000);
+
+  return true;
+}
+
+async function saveSquad() {
+  const name = document.getElementById("playerName").value.trim();
+  if (!name) {
+    document.getElementById("saveStatus").innerHTML =
+      '<span style="color:var(--red)">Please enter your name first.</span>';
+    return;
+  }
+
+  const n = nations.find(x => x.name === currentNation);
+  const data = {
+    name,
+    nation: currentNation,
+    flag: n ? n.flag : "",
+    squad: realSquad,
+    strength: squadStrength(realSquad),
+    saved: Date.now()
+  };
+
+  savedName = name;
+  mySquadData = data;
+
+  document.getElementById("saveStatus").innerHTML =
+    '<span style="color:var(--text-muted)">Saving...</span>';
+
+  try {
+    const safeName = name.replace(/\s+/g, "_").toLowerCase();
+    const safeNation = currentNation.replace(/\s+/g, "_").toLowerCase();
+    const filename = `squad_${safeName}_${safeNation}.json`;
+
+    const saved = await saveJsonToFile(data, filename);
+
+    if (!saved) {
+      document.getElementById("saveStatus").innerHTML =
+        '<span style="color:var(--red)">Save cancelled.</span>';
+      return;
+    }
+
+    document.getElementById("saveStatus").innerHTML =
+      '<span style="color:var(--green)">✓ Saved JSON file! Loading leaderboard...</span>';
+
+    setTimeout(() => {
+      loadLeaderboard();
+      goStep(7);
+    }, 800);
+  } catch (e) {
+    console.error(e);
+    document.getElementById("saveStatus").innerHTML =
+      '<span style="color:var(--red)">Could not save file — try again.</span>';
+  }
+}
+
 async function saveSquad() {
   const name = document.getElementById("playerName").value.trim();
   if (!name) {
