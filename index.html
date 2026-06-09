@@ -275,53 +275,7 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
     <div style="font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;margin-bottom:.75rem;">Your starting XI</div>
     <div class="xi-grid" id="realXiGrid"></div>
   </div>
-  <button class="btn btn-primary" id="realNextBtn" onclick="goStep(5)" disabled>Next — Answer questions →</button>
-</div>
-
-<!-- STEP 5: QUESTIONS -->
-<div id="step5" class="step">
-  <button class="btn-back" onclick="goStep(4)">← Back to squad</button>
-  <div class="step-header">
-    <h2>Step 5 — Questions about your squad</h2>
-    <p>Answer each question using the data. Use the sentence starters to help you begin.</p>
-  </div>
-  <div class="q-block">
-    <div class="q-label">1. Which stat did you find most useful when picking your squad, and why?</div>
-    <div class="q-starter">💬 <span>"I found ________ most useful because it helped me to decide..."</span></div>
-    <textarea class="q-input" rows="3" id="q1" placeholder="Write your answer here..."></textarea>
-    <button class="hint-btn" onclick="toggleHint('h1')">💡 Need a hint?</button>
-    <div class="hint-text" id="h1">Think about which column you sorted by most often. Did rating help most? Did you check pace when picking forwards? Did caps matter more for some positions?</div>
-  </div>
-  <div class="q-block">
-    <div class="q-label">2. Look at your goalkeeper. What data told you they were the right choice over the others?</div>
-    <div class="q-starter">💬 <span>"I chose ________ as my goalkeeper because the data showed that..."</span></div>
-    <textarea class="q-input" rows="3" id="q2" placeholder="Write your answer here..."></textarea>
-    <button class="hint-btn" onclick="toggleHint('h2')">💡 Need a hint?</button>
-    <div class="hint-text" id="h2">Compare your goalkeeper's stats to the other GKs. For a goalkeeper, rating and caps are usually more important than pace or goals.</div>
-  </div>
-  <div class="q-block">
-    <div class="q-label">3. Which player in your XI has the highest overall rating? Why do you think "rating" uses lots of stats instead of just one number like goals?</div>
-    <div class="q-starter">💬 <span>"My highest rated player is ________. I think rating uses multiple stats because..."</span></div>
-    <textarea class="q-input" rows="3" id="q3" placeholder="Write your answer here..."></textarea>
-    <button class="hint-btn" onclick="toggleHint('h3')">💡 Need a hint?</button>
-    <div class="hint-text" id="h3">A goalkeeper who scores 0 goals isn't a bad player — goals just isn't the right stat for them. Rating combines many skills so it can fairly compare players across positions.</div>
-  </div>
-  <div class="q-block">
-    <div class="q-label">4. Did you have to leave out a player you wanted because of the position limits? How did the data help you make that difficult choice?</div>
-    <div class="q-starter">💬 <span>"I had a difficult choice between ________ and ________. I used the data to decide by..."</span></div>
-    <textarea class="q-input" rows="3" id="q4" placeholder="Write your answer here..."></textarea>
-    <button class="hint-btn" onclick="toggleHint('h4')">💡 Need a hint?</button>
-    <div class="hint-text" id="h4">Which position had the most competition? If you had 5 good midfielders but only 3 spots, how did the stats help you decide who to drop?</div>
-  </div>
-  <div class="q-block">
-    <div class="extension-badge">Extension</div>
-    <div class="q-label">5. If you could add one more column of data to the table, what would it be and why?</div>
-    <div class="q-starter">💬 <span>"I would add ________ because it would help me to..."</span></div>
-    <textarea class="q-input" rows="3" id="q5" placeholder="e.g. injuries, height, recent form, pass accuracy..."></textarea>
-    <button class="hint-btn" onclick="toggleHint('h5')">💡 Need a hint?</button>
-    <div class="hint-text" id="h5">Think about what's missing. Can you tell if a player is injured? Can you tell how tall a centre back is? What extra data would improve your decision?</div>
-  </div>
-  <button class="btn btn-primary" onclick="goStep(6)">Next — Save my squad →</button>
+  <button class="btn btn-primary" id="realNextBtn" onclick="goStep(6)" disabled>Next — Answer questions →</button>
 </div>
 
 <!-- STEP 6: SAVE -->
@@ -339,37 +293,7 @@ main{max-width:940px;margin:0 auto;padding:2rem 1.5rem;}
     <button class="btn btn-primary" onclick="saveSquad()">Save my squad 💾</button>
     <div id="saveStatus" style="margin-top:1rem;font-size:13px;"></div>
   </div>
-  <div class="info-box" style="max-width:480px;">Your squad data is saved to a shared class leaderboard. Your written answers stay private on your screen only.</div>
-</div>
-
-<!-- STEP 7: LEADERBOARD -->
-<div id="step7" class="step">
-  <div class="step-header">
-    <h2>⚽ Class leaderboard — challenge a classmate!</h2>
-    <p>All saved squads are shown below. Click "Challenge" to run a match simulation against any classmate!</p>
-  </div>
-  <div id="mySquadSummary" class="card" style="margin-bottom:1rem;"></div>
-  <div id="leaderboardTable"></div>
-  <div style="margin-top:1rem;display:flex;gap:10px;flex-wrap:wrap;">
-    <button class="btn btn-outline btn" onclick="loadLeaderboard()">🔄 Refresh</button>
-    <button class="btn btn-outline btn" onclick="showSummary()">📄 My squad sheet</button>
-  </div>
-</div>
-
-<!-- STEP 8: MATCH SIM -->
-<div id="step8" class="step">
-  <button class="btn-back" onclick="goStep(7)">← Back to leaderboard</button>
-  <div class="step-header"><h2 id="matchTitle">Match simulation</h2></div>
-  <div id="matchContent"></div>
-</div>
-
-<!-- STEP 9: SUMMARY -->
-<div id="step9" class="step">
-  <button class="btn-back" onclick="goStep(7)">← Back to leaderboard</button>
-  <div class="step-header"><h2>Your completed squad sheet</h2></div>
-  <div id="summaryContent"></div>
   <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:1rem;">
-    <button class="btn btn-primary" onclick="window.print()">🖨️ Print / Save as PDF</button>
     <button class="btn btn-outline btn" onclick="restart()">Start again</button>
   </div>
 </div>
@@ -706,83 +630,7 @@ async function saveSquad(){
     setTimeout(()=>{loadLeaderboard();goStep(7);},800);
   }catch(e){document.getElementById("saveStatus").innerHTML='<span style="color:var(--red)">Could not save — try again.</span>';}
 }
-async function loadLeaderboard(){
-  document.getElementById("leaderboardTable").innerHTML='<div style="color:var(--text-muted);font-size:13px">Loading...</div>';
-  try{
-    const keys=await window.storage.list("squad:",true);
-    const squads=[];
-    for(const key of(keys.keys||[])){try{const r=await window.storage.get(key,true);if(r?.value)squads.push(JSON.parse(r.value));}catch(e){}}
-    squads.sort((a,b)=>b.strength-a.strength);
-    if(mySquadData){document.getElementById("mySquadSummary").innerHTML=`<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;"><div style="font-size:32px">${mySquadData.flag}</div><div><div style="font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;">Your squad: ${mySquadData.name} — ${mySquadData.nation}</div><div style="font-size:13px;color:var(--text-muted)">Squad strength: <strong>${mySquadData.strength}</strong></div></div></div>`;}
-    if(!squads.length){document.getElementById("leaderboardTable").innerHTML='<div class="info-box">No squads saved yet — be the first!</div>';return;}
-    let html=`<div class="card" style="padding:0;overflow:hidden;"><table class="lb-table"><thead><tr><th>#</th><th>Manager</th><th>Nation</th><th>Strength</th><th>Challenge</th></tr></thead><tbody>`;
-    squads.forEach((s,i)=>{
-      const medal=i===0?"🥇":i===1?"🥈":i===2?"🥉":"";
-      const isMe=s.name===savedName;
-      html+=`<tr><td>${medal}${i+1}</td><td><strong>${s.name}</strong>${isMe?' <span style="font-size:11px;color:var(--green)">(you)</span>':""}</td><td>${s.flag} ${s.nation}</td><td><strong>${s.strength}</strong></td><td>${isMe?'<span style="color:var(--text-muted);font-size:12px">—</span>':`<button class="challenge-btn" onclick="startMatch('${s.name.replace(/'/g,"\\'")}')">⚔️ Challenge</button>`}</td></tr>`;
-    });
-    html+=`</tbody></table></div>`;
-    document.getElementById("leaderboardTable").innerHTML=html;
-  }catch(e){document.getElementById("leaderboardTable").innerHTML='<div class="warn-box">Could not load leaderboard. Please refresh.</div>';}
-}
 
-// ─── MATCH SIM ────────────────────────────────────────────────────────────────
-async function startMatch(oppName){
-  const key="squad:"+oppName.replace(/\s+/g,"_").toLowerCase();
-  let opp;
-  try{const r=await window.storage.get(key,true);if(r?.value)opp=JSON.parse(r.value);}catch(e){}
-  if(!opp){alert("Could not load opponent squad.");return;}
-  const myN=nations.find(x=>x.name===currentNation);
-  document.getElementById("matchTitle").textContent=`⚽ ${mySquadData.flag} ${currentNation} vs ${opp.flag} ${opp.nation}`;
-  document.getElementById("matchContent").innerHTML=runMatchSim(mySquadData,opp);
-  goStep(8);
-}
-function runMatchSim(home,away){
-  const hStr=home.strength,aStr=away.strength,tot=hStr+aStr;
-  const hExp=(hStr/tot)*2.6;const aExp=(aStr/tot)*2.4;
-  let hG=0,aG=0;
-  for(let i=0;i<6;i++){if(Math.random()<hExp/6)hG++;}
-  for(let i=0;i<6;i++){if(Math.random()<aExp/6)aG++;}
-  const events=[];const used=new Set();
-  function rm(){let m;do{m=rnd(1,90);}while(used.has(m));used.add(m);return m;}
-  const hS=home.squad.filter(p=>p.pos==="FWD"||p.pos==="MID").sort((a,b)=>b.goals-a.goals);
-  const aS=away.squad.filter(p=>p.pos==="FWD"||p.pos==="MID").sort((a,b)=>b.goals-a.goals);
-  for(let i=0;i<hG;i++){const s=hS[i%hS.length]||home.squad[0];events.push({min:rm(),txt:`⚽ GOAL! ${s.name} (${home.nation})`});}
-  for(let i=0;i<aG;i++){const s=aS[i%aS.length]||away.squad[0];events.push({min:rm(),txt:`⚽ GOAL! ${s.name} (${away.nation})`});}
-  const all=[...home.squad,...away.squad];
-  for(let i=0;i<rnd(1,4);i++){events.push({min:rm(),txt:`🟨 Yellow card — ${all[rnd(0,all.length-1)].name}`});}
-  events.sort((a,b)=>a.min-b.min);
-  let resultTxt,cls;
-  if(hG>aG){resultTxt=`${home.name}'s ${home.nation} WIN! 🎉`;cls="result-win";}
-  else if(aG>hG){resultTxt=`${away.name}'s ${away.nation} WIN! 🎉`;cls="result-win";}
-  else{resultTxt="It's a DRAW! 🤝";cls="result-draw";}
-  return`<div class="match-screen">
-    <div style="display:flex;justify-content:space-around;align-items:center;gap:1rem;flex-wrap:wrap;">
-      <div><div style="font-size:32px">${home.flag}</div><div class="match-team">${home.nation}</div><div style="font-size:12px;color:var(--text-muted)">${home.name}</div></div>
-      <div class="match-scoreline">${hG} — ${aG}</div>
-      <div><div style="font-size:32px">${away.flag}</div><div class="match-team">${away.nation}</div><div style="font-size:12px;color:var(--text-muted)">${away.name}</div></div>
-    </div>
-    <div style="font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;margin:1rem 0" class="${cls}">${resultTxt}</div>
-    <div style="font-size:12px;color:var(--text-muted);margin-bottom:1rem">Squad strength: ${home.nation} ${hStr} vs ${away.nation} ${aStr}</div>
-  </div>
-  <div class="card"><div style="font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;margin-bottom:.75rem">Match events</div>${events.map(e=>`<div class="match-event"><span style="color:var(--text-muted);min-width:40px;display:inline-block">${e.min}'</span> ${e.txt}</div>`).join("")}</div>
-  <div class="info-box"><strong>How was the result decided?</strong> The simulation uses each squad's <strong>strength score</strong> — calculated from average rating (50%), average pace (30%), and goals per player (20%). A stronger squad has a higher chance of scoring, but there's always some randomness — just like real football!</div>`;
-}
-
-// ─── SUMMARY ─────────────────────────────────────────────────────────────────
-function showSummary(){
-  const n=nations.find(x=>x.name===currentNation);
-  const byPos={GK:[],DEF:[],MID:[],FWD:[]};realSquad.forEach(p=>byPos[p.pos].push(p));
-  let html=`<div class="summary-card"><h3>${n?n.flag:""} ${currentNation} — Starting XI</h3>`;
-  ["GK","DEF","MID","FWD"].forEach(pos=>{byPos[pos].forEach(p=>{html+=`<div class="player-row"><span><span class="pos-badge pos-${pos}">${pos}</span> &nbsp;<strong>${p.name}</strong> <span style="font-size:12px;color:var(--text-muted)">(${p.role})</span></span><span style="color:var(--text-muted);font-size:13px">⭐${p.rating} 💨${p.pace} ⚽${p.goals} · ${p.caps} caps</span></div>`;});});
-  html+="</div>";
-  const qs=[{id:"q1",label:"Q1 — Most useful stat"},{id:"q2",label:"Q2 — Goalkeeper choice"},{id:"q3",label:"Q3 — Rating and multiple stats"},{id:"q4",label:"Q4 — Difficult choices"},{id:"q5",label:"Extension — Extra stat idea"}];
-  let any=false;
-  qs.forEach(q=>{const v=document.getElementById(q.id).value.trim();if(v){if(!any){html+=`<div class="summary-card"><h3>Written answers</h3>`;any=true;}html+=`<div class="q-answer"><div class="qlabel">${q.label}</div><div class="qtext">${v}</div></div>`;}});
-  if(any)html+="</div>";
-  document.getElementById("summaryContent").innerHTML=html;
-  goStep(9);
-}
 function toggleHint(id){const el=document.getElementById(id);el.classList.toggle("visible");el.previousElementSibling.textContent=el.classList.contains("visible")?"💡 Hide hint":"💡 Need a hint?";}
 function restart(){currentNation="";realSquad=[];practiceSquad=[];["q1","q2","q3","q4","q5"].forEach(id=>document.getElementById(id).value="");goStep(0);}
 
