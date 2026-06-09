@@ -616,19 +616,55 @@ function squadStrength(squad){
 }
 
 // ─── SAVE & LEADERBOARD ───────────────────────────────────────────────────────
-async function saveSquad(){
-  const name=document.getElementById("playerName").value.trim();
-  if(!name){document.getElementById("saveStatus").innerHTML='<span style="color:var(--red)">Please enter your name first.</span>';return;}
-  const n=nations.find(x=>x.name===currentNation);
-  const data={name,nation:currentNation,flag:n?n.flag:"",squad:realSquad,strength:squadStrength(realSquad),saved:Date.now()};
-  savedName=name;mySquadData=data;
-  document.getElementById("saveStatus").innerHTML='<span style="color:var(--text-muted)">Saving...</span>';
-  try{
-    const key="squad:"+name.replace(/\s+/g,"_").toLowerCase();
-    await window.storage.set(key,JSON.stringify(data),true);
-    document.getElementById("saveStatus").innerHTML='<span style="color:var(--green)">✓ Saved! Loading leaderboard...</span>';
-    setTimeout(()=>{loadLeaderboard();goStep(7);},800);
-  }catch(e){document.getElementById("saveStatus").innerHTML='<span style="color:var(--red)">Could not save — try again.</span>';}
+async function saveSquad() {
+  const name = document.getElementById("playerName").value.trim();
+  if (!name) {
+    document.getElementById("saveStatus").innerHTML =
+      '<span style="color:var(--red)">Please enter your name first.</span>';
+    return;
+  }
+
+  const n = nations.find(x => x.name === currentNation);
+  const data = {
+    name,
+    nation: currentNation,
+    flag: n ? n.flag : "",
+    squad: realSquad,
+    strength: squadStrength(realSquad),
+    saved: Date.now()
+  };
+
+  savedName = name;
+  mySquadData = data;
+
+  document.getElementById("saveStatus").innerHTML =
+    '<span style="color:var(--text-muted)">Saving...</span>';
+
+  try {
+    const safeName = name.replace(/\s+/g, "_").toLowerCase();
+    const safeNation = currentNation.replace(/\s+/g, "_").toLowerCase();
+    const filename = `squad_${safeName}_${safeNation}.json`;
+
+    const saved = await saveJsonToFile(data, filename);
+
+    if (!saved) {
+      document.getElementById("saveStatus").innerHTML =
+        '<span style="color:var(--red)">Save cancelled.</span>';
+      return;
+    }
+
+    document.getElementById("saveStatus").innerHTML =
+      '<span style="color:var(--green)">✓ Saved JSON file! Loading leaderboard...</span>';
+
+    setTimeout(() => {
+      loadLeaderboard();
+      goStep(7);
+    }, 800);
+  } catch (e) {
+    console.error(e);
+    document.getElementById("saveStatus").innerHTML =
+      '<span style="color:var(--red)">Could not save file — try again.</span>';
+  }
 }
 
 function toggleHint(id){const el=document.getElementById(id);el.classList.toggle("visible");el.previousElementSibling.textContent=el.classList.contains("visible")?"💡 Hide hint":"💡 Need a hint?";}
