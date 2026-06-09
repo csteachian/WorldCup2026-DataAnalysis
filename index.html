@@ -677,12 +677,12 @@ async function saveSquad() {
   }
 
   const n = nations.find(x => x.name === currentNation);
+
   const data = {
-    name,
-    nation: currentNation,
+    team_name: currentNation,
+    manager_name: name,
     flag: n ? n.flag : "",
-    squad: realSquad,
-    strength: squadStrength(realSquad),
+    players: realSquad,
     saved: Date.now()
   };
 
